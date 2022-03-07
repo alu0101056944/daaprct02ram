@@ -20,7 +20,7 @@ using namespace std;
 
 class InstructionTranslator {
 public:
-  InstructionTranslator(vector<string> program);
+  InstructionTranslator(string filePath);
 
   /**
    * Meant for trace implementation.
@@ -44,10 +44,13 @@ public:
    */
   void jump(string label);
 private:
+  string filePath_;
   bool moreIns;
   int programCounter, currentLine;
   vector<string> savedProgram;
   map<string, int> labelLocations;
+
+  void readFile();
 
   void toLowerCase(string& line);
 

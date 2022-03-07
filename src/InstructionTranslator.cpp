@@ -4,14 +4,27 @@
 #include <cctype>
 #include <string>
 #include <algorithm>
+#include <fstream>
 
-InstructionTranslator::InstructionTranslator(vector<string> programParam) : 
-    savedProgram(programParam), currentLine(0), moreIns(true) {
+InstructionTranslator::InstructionTranslator(string filePath) :
+    filePath_(filePath), currentLine(0), moreIns(true) {
+  readFile();
   setLabels();
 }
 
 /**
- * Called on constructor
+ * @brief Auxiliary function of constructor
+ */
+void InstructionTranslator::readFile() {
+  ifstream inFile(filePath_);
+  string line;
+  while (getline(inFile, line)) {
+    savedProgram.push_back(line);
+  }
+}
+
+/**
+ * @brief Auxiliary function of constructor
  */
 void InstructionTranslator::setLabels() {
   for(int line = 0; line < savedProgram.size(); line++) {

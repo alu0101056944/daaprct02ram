@@ -19,8 +19,7 @@
 
 RAM::RAM(string programPath, string inputPath, string outputPath) :
     ptrLatestExecutedInstruction(nullptr),
-    io(programPath),
-    insTranslator(io.readFile()),
+    insTranslator(programPath),
     isa(),
     memory(),
     input(inputPath),

@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.0.0)
 project(Practica2Programa VERSION 0.1.0)
 
 add_library(Practica2Implementation 
-    src/IOHandler.cpp
     src/InstructionTranslator.cpp
     src/RAM.cpp
     src/RAMOutput.cpp

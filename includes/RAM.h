@@ -3,7 +3,6 @@
 
 #include <iostream>
 
-#include "IOHandler.h"
 #include "InstructionTranslator.h"
 #include "RAMInput.h"
 #include "RAMOutput.h"
@@ -31,7 +30,6 @@ private:
   int numberOfInsExecuted;
   Instruction* ptrLatestExecutedInstruction;
 
-  IOHandler io;
   InstructionTranslator insTranslator;
   Memory memory;
   RAMInput input;
