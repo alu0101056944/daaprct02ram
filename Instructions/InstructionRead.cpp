@@ -15,6 +15,7 @@ InstructionRead::InstructionRead(
 
 void InstructionRead::parse() {
   passedValue = parseValue(args[1]);
+  setAddressTypeFlags();
 }
 
 void InstructionRead::execute() {
@@ -24,9 +25,12 @@ void InstructionRead::execute() {
 }
 
 bool InstructionRead::successful() {
-  return passedValue >= 0;
+  if (passedValue <= 0) { // por requisito
+    return false;
+  }
+  return true;
 }
 
 string InstructionRead::errorMessage() {
-  return "no ";
+  return "Fallo en la instrucción Read.";
 }

@@ -53,4 +53,5 @@ void Instruction::print() {
       cout << " ";
     }
   }
+  cout << endl;
 }

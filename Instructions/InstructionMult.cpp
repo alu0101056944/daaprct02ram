@@ -11,15 +11,28 @@ InstructionMult::InstructionMult(
     InstructionTranslator& insTranslator
   ) : 
     Instruction(args, mem, input, output, insTranslator),
-    obtainedValue(0) {}
+    result(0) {}
 
 void InstructionMult::parse() {
   passedValue = parseValue(args[1]);
+  setAddressTypeFlags();
 }
 
 void InstructionMult::execute() {
+  cout << (successful() ? "yes" : "No") << endl;
   if (successful()) {
-    memory.setRegister(memory.getRegister(0) * obtainedValue, 0);
+    if (isIndirectValue) { // indirect address
+      result = memory.getRegister(0) *
+          memory.getRegister(memory.getRegister(passedValue));
+      cout << "indirect" << endl;
+    } else if (isInmediateValue) { // inmediate address
+      cout << "inmediate" << endl;
+      result = memory.getRegister(0) * passedValue;
+    } else {
+      cout << "direct" << endl;
+      result = memory.getRegister(0) * memory.getRegister(passedValue);
+    }
+    memory.setRegister(result, 0);
   }
 }
 
@@ -27,14 +40,9 @@ bool InstructionMult::successful() {
   if (passedValue < 0) {
     return false;
   }
-  
-  if (!successfulChecked) {
-    obtainedValue = memory.getRegister(passedValue);
-    successfulChecked = true;
-  }
-  return obtainedValue >= 0;
+  return true;
 }
 
 string InstructionMult::errorMessage() {
-    return "no error";
+  return "Error: Multiplication instruction failed.";
 }

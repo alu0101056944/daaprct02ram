@@ -19,23 +19,25 @@ void InstructionWrite::parse() {
 }
 
 void InstructionWrite::execute() {
-  if (isIndirectValue) { // indirect address
-    obtainedValue = memory.getRegister(memory.getRegister(passedValue));
-  } else if (isInmediateValue) { // inmediate address
-    obtainedValue = passedValue;
-  } else {
-    obtainedValue = memory.getRegister(passedValue); // direct address
+  if (successful()) {
+    if (isIndirectValue) { // indirect address
+      obtainedValue = memory.getRegister(memory.getRegister(passedValue));
+    } else if (isInmediateValue) { // inmediate address
+      obtainedValue = passedValue;
+    } else {
+      obtainedValue = memory.getRegister(passedValue); // direct address
+    }
+    output.writeValue(obtainedValue);
   }
-  output.writeValue(obtainedValue);
 }
 
 bool InstructionWrite::successful() {
-  if (!isInmediateValue && passedValue < 1 || passedValue < 0) {
+  if (!isInmediateValue && passedValue < 1) {
     return false;
   }
   return true;
 }
 
 string InstructionWrite::errorMessage() {
-  return "Error: Write";
+  return "Error: Write instruction failed.";
 }

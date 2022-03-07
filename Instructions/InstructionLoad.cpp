@@ -23,16 +23,6 @@ void InstructionLoad::parse() {
 
 void InstructionLoad::execute() {
   if (successful()) {
-    memory.setRegister(obtainedValue, 0);
-  }
-}
-
-bool InstructionLoad::successful() {
-  if (passedValue < 0) {
-      return false;
-  }
-
-  if (!successfulChecked) {
     if (isIndirectValue) { // indirect address
       obtainedValue = memory.getRegister(memory.getRegister(passedValue));
     } else if (isInmediateValue) { // inmediate address
@@ -40,9 +30,15 @@ bool InstructionLoad::successful() {
     } else {
       obtainedValue = memory.getRegister(passedValue); // direct address
     }
-    successfulChecked = true;
+    memory.setRegister(obtainedValue, 0);
   }
-  return obtainedValue >= 0;
+}
+
+bool InstructionLoad::successful() {
+  if (!isInmediateValue && !isIndirectValue && passedValue < 1) {
+    return false;
+  }
+  return true;
 }
 
 string InstructionLoad::errorMessage() {

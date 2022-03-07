@@ -11,34 +11,31 @@ InstructionSub::InstructionSub(
     InstructionTranslator& insTranslator
   ) : 
     Instruction(args, mem, input, output, insTranslator),
-    obtainedValue(0) {}
+    result(0) {}
 
 void InstructionSub::parse() {
   passedValue = parseValue(args[1]);
+  setAddressTypeFlags();
 }
 
 void InstructionSub::execute() {
   if (successful()) {
-    memory.setRegister(obtainedValue, 0);
+    if (isIndirectValue) { // indirect address
+      result = memory.getRegister(0) - 
+          memory.getRegister(memory.getRegister(passedValue));
+    } else if (isInmediateValue) { // inmediate address
+      result = memory.getRegister(0) - passedValue;
+    } else {
+      result = memory.getRegister(0) - memory.getRegister(passedValue);
+    }
+    memory.setRegister(result, 0);
   }
 }
 
 bool InstructionSub::successful() {
-  if (passedValue < 0) {
-    return false;
-  }
-  
-  if (!successfulChecked) {
-    obtainedValue = memory.getRegister(0) - memory.getRegister(passedValue);
-    cout << endl << "memory.getRegister(0) = " << memory.getRegister(0) << " , passe: " << memory.getRegister(passedValue);
-    successfulChecked = true;
-  }
-  return obtainedValue >= 0;
+  return true;
 }
 
 string InstructionSub::errorMessage() {
-  if (passedValue < 0) {
-    return "Error: passed value negative";
-  }
-  return "Error: Obtained value negative";
+  return "An error occured when substracting.";
 }

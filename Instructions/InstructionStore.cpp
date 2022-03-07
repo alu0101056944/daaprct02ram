@@ -26,9 +26,12 @@ void InstructionStore::execute() {
 }
 
 bool InstructionStore::successful() {
+  if (isInmediateValue) {
+    return false;
+  }
   return true; //cant go wrong
 }
 
 string InstructionStore::errorMessage() {
-  return "otr";
+  return "Error: Instruction Store failed.";
 }

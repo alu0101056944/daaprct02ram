@@ -37,6 +37,7 @@ public:
    */
   string errorMessage();
 private:
+  int result;
 };
 
 #endif

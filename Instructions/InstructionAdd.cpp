@@ -15,10 +15,19 @@ InstructionAdd::InstructionAdd(
 
 void InstructionAdd::parse() {
   passedValue = parseValue(args[1]);
+  setAddressTypeFlags();
 }
 
 void InstructionAdd::execute() {
   if (successful()) {
+    if (isIndirectValue) { // indirect address
+      result = memory.getRegister(0) +
+          memory.getRegister(memory.getRegister(passedValue));
+    } else if (isInmediateValue) { // inmediate address
+      result = memory.getRegister(0) + passedValue;
+    } else {
+      result = memory.getRegister(0) + memory.getRegister(passedValue);
+    }
     memory.setRegister(result, 0);
   }
 }
@@ -26,11 +35,6 @@ void InstructionAdd::execute() {
 bool InstructionAdd::successful() {
   if (passedValue < 0) {
     return false;
-  }
-
-  if (!successfulChecked) {
-    result = memory.getRegister(0) + memory.getRegister(passedValue);
-    successfulChecked = true;
   }
   return result >= 0;
 }

@@ -37,7 +37,7 @@ public:
    */
   string errorMessage();
 private:
-  int obtainedValue; // used to save result of successful() function for quick reutilization on execute()
+  int result; // used to save result of successful() function for quick reutilization on execute()
 };
 
 #endif

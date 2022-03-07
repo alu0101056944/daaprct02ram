@@ -104,7 +104,7 @@ void RAM::interpretInstruction(vector<string> instructionArgs) {
     setCurrentInstruction(new InstructionAdd(instructionArgs, memory, input, output, insTranslator));
   } else if (opCode.compare("sub") == 0) {
     setCurrentInstruction(new InstructionSub(instructionArgs, memory, input, output, insTranslator));
-  } else if (opCode.compare("mult") == 0) {
+  } else if (opCode.compare("mul") == 0 || opCode.compare("mult") == 0) {
     setCurrentInstruction(new InstructionMult(instructionArgs, memory, input, output, insTranslator));
   } else if (opCode.compare("div") == 0) {
     setCurrentInstruction(new InstructionDiv(instructionArgs, memory, input, output, insTranslator));
@@ -128,6 +128,7 @@ void RAM::interpretInstruction(vector<string> instructionArgs) {
   if (!ptrLatestExecutedInstruction->successful()) {
     cout << ptrLatestExecutedInstruction->errorMessage() << endl;
     cout << "On instruction number " << numberOfInsExecuted << endl;
+    printCurrentInstruction();
     halt = true;
   }
 }
