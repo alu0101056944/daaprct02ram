@@ -25,10 +25,11 @@ public:
   void printTrace();
   void executeInstruction();
   void executeProgram();
+  bool hasFinishedExecution();
 private:
   vector<string> isa; // list of executable instruction codes
   int numberOfInsExecuted;
-  Instruction* ptrCurrentInstruction;
+  Instruction* ptrLatestExecutedInstruction;
 
   IOHandler io;
   InstructionTranslator insTranslator;

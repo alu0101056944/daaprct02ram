@@ -73,7 +73,7 @@ void InstructionTranslator::toLowerCase(string& line) {
 }
 
 bool InstructionTranslator::moreInstructions() {
-  if(currentLine >= savedProgram.size()) {
+  if(currentLine > savedProgram.size()) {
     return false;
   }
   return true;

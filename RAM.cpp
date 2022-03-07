@@ -18,7 +18,7 @@
 #include "Instructions/InstructionJZero.h"
 
 RAM::RAM(string programPath, string inputPath, string outputPath) :
-    ptrCurrentInstruction(nullptr),
+    ptrLatestExecutedInstruction(nullptr),
     io(programPath),
     insTranslator(io.readFile()),
     isa(),
@@ -58,12 +58,12 @@ void RAM::printTrace() {
 }
 
 void RAM::printInstructionAmount() {
-  cout << numberOfInsExecuted << endl;
+  cout << "Amount of instructions executed: " << numberOfInsExecuted << endl;
 }
 
 void RAM::printCurrentInstruction() {
-  if (ptrCurrentInstruction != nullptr) {
-    ptrCurrentInstruction->print();
+  if (ptrLatestExecutedInstruction != nullptr) {
+    ptrLatestExecutedInstruction->print();
   }
 }
 
@@ -87,21 +87,15 @@ void RAM::executeInstruction() {
   }
 }
 
-void RAM::executeProgram() {
-  while(!halt && insTranslator.moreInstructions()) {
-    executeInstruction();
-  }
-}
-
                                             //CAMBIAR VALORES CABLEADOS POR CONSTANTES
                                             //DISSASEMBLE = OBTENER LA IMPLEMENTACION DE LA INSTRUCCION EN FORMA DE TEXTO
 
+/**
+ * @brief Auxiliary function of executeInstructions()
+ * instructionArgs cant be empty because it is checked beforehand.
+ */
 void RAM::interpretInstruction(vector<string> instructionArgs) {
-  string opCode;
-  if(!instructionArgs.empty()) {
-      opCode = instructionArgs[0];
-  }
-
+  string opCode = instructionArgs[0];
   if (opCode.compare("load") == 0) {
     setCurrentInstruction(new InstructionLoad(instructionArgs, memory, input, output, insTranslator));
   } else if (opCode.compare("store") == 0) {
@@ -127,20 +121,28 @@ void RAM::interpretInstruction(vector<string> instructionArgs) {
   } else { // halt
     setCurrentInstruction(new InstructionHalt(instructionArgs, memory, input, output, insTranslator));
     halt = true;
-    cout << "halt!";
   }
 
-  ptrCurrentInstruction->parse();
-  ptrCurrentInstruction->execute();
-  if (!ptrCurrentInstruction->successful()) {
-    cout << ptrCurrentInstruction->errorMessage() << endl;
+  ptrLatestExecutedInstruction->parse();
+  ptrLatestExecutedInstruction->execute();
+  if (!ptrLatestExecutedInstruction->successful()) {
+    cout << ptrLatestExecutedInstruction->errorMessage() << endl;
     cout << "On instruction number " << numberOfInsExecuted << endl;
     halt = true;
-    cout << "halt!" << endl;
   }
 }
 
-void RAM::setCurrentInstruction(Instruction* ptrCurrentInstructionParam) {
-  delete ptrCurrentInstruction;
-  ptrCurrentInstruction = ptrCurrentInstructionParam;
+void RAM::executeProgram() {
+  while(!hasFinishedExecution()) {
+    executeInstruction();
+  }
+}
+
+void RAM::setCurrentInstruction(Instruction* ptrLatestExecutedInstructionParam) {
+  delete ptrLatestExecutedInstruction;
+  ptrLatestExecutedInstruction = ptrLatestExecutedInstructionParam;
+}
+
+bool RAM::hasFinishedExecution() {
+  return halt;
 }

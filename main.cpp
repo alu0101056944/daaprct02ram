@@ -3,24 +3,8 @@
 
 #include "RAM.h"
 
-int main(int argc, char** argv) {
-  if (argc >= 5) {
-    RAM r(argv[1], argv[2], argv[3]);
-    auto isOnDebugMode = stoi(argv[4]) == 0;
-    if (isOnDebugMode) {
-      r.executeProgram();
-      r.printInstructionAmount();
-      return 0;
-    }
-  } else {
-    cerr << "Invalid amount of input values." << endl;
-    cerr << "Requires 4 arguments to be passed to the program." << endl;
-    cerr << "For example: " << endl;
-    cerr << "Practica2Programa.exe ./Programa.txt ./input.txt ./output.txt 0" << endl;
-  }
-  
 
-/* 
+void initiateDebugMenu(RAM& ram) {
   char choice;
   bool programOn = true;
   while (programOn != false) {
@@ -39,26 +23,30 @@ int main(int argc, char** argv) {
 
     switch (choice) {
       case 'r':
-        r.printRegisters();
+        ram.printRegisters();
         break;
       case 't':
-        r.printTrace();
+        ram.printTrace();
         break;
       case 'e':
-        r.executeInstruction();
-        r.printCurrentInstruction();
-        r.printRegisters();
-        r.printInput();
-        r.printOutput();
+        if (!ram.hasFinishedExecution()) {
+          ram.executeInstruction();
+          ram.printCurrentInstruction();
+          ram.printRegisters();
+          ram.printInput();
+          ram.printOutput();
+        } else {
+          cout << "Program execution has ended." << endl;
+        }
         break;
       case 's':
         cout << "Not implemented.\n";
         break;
       case 'i':
-        r.printInput();
+        ram.printInput();
         break;
       case 'o':
-        r.printOutput();
+        ram.printOutput();
         break;
       case 'h':
         cout << "No help included.\n";
@@ -72,5 +60,28 @@ int main(int argc, char** argv) {
         cin >> choice;
         break;
     }
-  } */
-} 
+  }
+}
+
+int main(int argc, char** argv) {
+  if (argc >= 5) {
+    RAM r(argv[1], argv[2], argv[3]);
+    auto isOnDebugMode = stoi(argv[4]) == 0;
+    if (isOnDebugMode) {
+      r.executeProgram();
+      r.printInstructionAmount();
+      r.printRegisters();
+      r.printInput();
+      r.printOutput();
+      return 0;
+    } else {
+      cout << "Initiating debug mode." << endl;
+      initiateDebugMenu(r);
+    }
+  } else {
+    cerr << "Invalid amount of input values." << endl;
+    cerr << "Requires 4 arguments to be passed to the program." << endl;
+    cerr << "For example: " << endl;
+    cerr << "Practica2Programa.exe ./Programa.txt ./input.txt ./output.txt 0" << endl;
+  }
+}

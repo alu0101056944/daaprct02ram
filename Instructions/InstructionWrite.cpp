@@ -26,7 +26,6 @@ void InstructionWrite::execute() {
   } else {
     obtainedValue = memory.getRegister(passedValue); // direct address
   }
-  cout << endl << ":" << obtainedValue;
   output.writeValue(obtainedValue);
 }
 
