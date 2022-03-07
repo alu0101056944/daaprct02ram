@@ -1,21 +1,21 @@
-#include "RAM.h"
+#include "../includes/RAM.h"
 
 #include <algorithm>
 #include <vector>
 #include <string>
 
-#include "Instructions/InstructionLoad.h"
-#include "Instructions/InstructionStore.h"
-#include "Instructions/InstructionAdd.h"
-#include "Instructions/InstructionSub.h"
-#include "Instructions/InstructionMult.h"
-#include "Instructions/InstructionDiv.h"
-#include "Instructions/InstructionRead.h"
-#include "Instructions/InstructionWrite.h"
-#include "Instructions/InstructionHalt.h"
-#include "Instructions/InstructionJump.h"
-#include "Instructions/InstructionJGTZ.h"
-#include "Instructions/InstructionJZero.h"
+#include "../includes/Instructions/InstructionLoad.h"
+#include "../includes/Instructions/InstructionStore.h"
+#include "../includes/Instructions/InstructionAdd.h"
+#include "../includes/Instructions/InstructionSub.h"
+#include "../includes/Instructions/InstructionMult.h"
+#include "../includes/Instructions/InstructionDiv.h"
+#include "../includes/Instructions/InstructionRead.h"
+#include "../includes/Instructions/InstructionWrite.h"
+#include "../includes/Instructions/InstructionHalt.h"
+#include "../includes/Instructions/InstructionJump.h"
+#include "../includes/Instructions/InstructionJGTZ.h"
+#include "../includes/Instructions/InstructionJZero.h"
 
 RAM::RAM(string programPath, string inputPath, string outputPath) :
     ptrLatestExecutedInstruction(nullptr),

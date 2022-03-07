@@ -1,4 +1,4 @@
-#include "InstructionHalt.h"
+#include "../../includes/Instructions/InstructionHalt.h"
 
 #include <string>
 #include <sstream>

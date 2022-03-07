@@ -1,11 +1,9 @@
-#include "InstructionLoad.h"
+#include "../../includes/Instructions/InstructionWrite.h"
 
 #include <string>
 #include <sstream>
 
-#include <iostream>
-
-InstructionLoad::InstructionLoad(
+InstructionWrite::InstructionWrite(
     vector<string> args,
     Memory& mem,
     RAMInput& input,
@@ -13,15 +11,14 @@ InstructionLoad::InstructionLoad(
     InstructionTranslator& insTranslator
   ) : 
     Instruction(args, mem, input, output, insTranslator),
-    obtainedValue(0) {
-}
+    obtainedValue(0) {}
 
-void InstructionLoad::parse() {
+void InstructionWrite::parse() {
   passedValue = parseValue(args[1]);
   setAddressTypeFlags();
 }
 
-void InstructionLoad::execute() {
+void InstructionWrite::execute() {
   if (successful()) {
     if (isIndirectValue) { // indirect address
       obtainedValue = memory.getRegister(memory.getRegister(passedValue));
@@ -30,17 +27,17 @@ void InstructionLoad::execute() {
     } else {
       obtainedValue = memory.getRegister(passedValue); // direct address
     }
-    memory.setRegister(obtainedValue, 0);
+    output.writeValue(obtainedValue);
   }
 }
 
-bool InstructionLoad::successful() {
-  if (!isInmediateValue && !isIndirectValue && passedValue < 1) {
+bool InstructionWrite::successful() {
+  if (!isInmediateValue && passedValue < 1) {
     return false;
   }
   return true;
 }
 
-string InstructionLoad::errorMessage() {
-    return "Error: negative address";
+string InstructionWrite::errorMessage() {
+  return "Error: Write instruction failed.";
 }

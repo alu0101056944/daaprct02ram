@@ -1,4 +1,4 @@
-#include "InstructionDiv.h"
+#include "../../includes/Instructions/InstructionDiv.h"
 
 #include <string>
 #include <sstream>

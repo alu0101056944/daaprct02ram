@@ -1,8 +1,7 @@
 #include <iostream>
 #include <sstream>
 
-#include "RAM.h"
-
+#include "../includes/RAM.h"
 
 void initiateDebugMenu(RAM& ram) {
   char choice;

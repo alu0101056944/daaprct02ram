@@ -1,4 +1,4 @@
-#include "InstructionMult.h"
+#include "../../includes/Instructions/InstructionMult.h"
 
 #include <string>
 #include <sstream>

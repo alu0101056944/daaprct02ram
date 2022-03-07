@@ -1,4 +1,4 @@
-#include "InstructionJump.h"
+#include "../../includes/Instructions/InstructionJump.h"
 
 #include <string>
 #include <sstream>

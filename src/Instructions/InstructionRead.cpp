@@ -1,4 +1,4 @@
-#include "InstructionRead.h"
+#include "../../includes/Instructions/InstructionRead.h"
 
 #include <string>
 #include <sstream>

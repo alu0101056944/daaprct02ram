@@ -1,4 +1,4 @@
-#include "InstructionTranslator.h"
+#include "../includes/InstructionTranslator.h"
 
 #include <sstream>
 #include <cctype>

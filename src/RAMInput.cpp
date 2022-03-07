@@ -1,4 +1,4 @@
-#include "RAMInput.h"
+#include "../includes/RAMInput.h"
 
 #include <fstream>
 #include <sstream>

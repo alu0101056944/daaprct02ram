@@ -1,9 +1,9 @@
-#include "InstructionJZero.h"
+#include "../../includes/Instructions/InstructionJGTZ.h"
 
 #include <string>
 #include <sstream>
 
-InstructionJZero::InstructionJZero(
+InstructionJGTZ::InstructionJGTZ(
     vector<string> args,
     Memory& mem,
     RAMInput& input,
@@ -12,18 +12,18 @@ InstructionJZero::InstructionJZero(
   ) : 
     Instruction(args, mem, input, output, insTranslator) {}
 
-void InstructionJZero::parse() {}
+void InstructionJGTZ::parse() {}
 
-void InstructionJZero::execute() {
-  if (memory.getRegister(0) == 0) {
+void InstructionJGTZ::execute() {
+  if (memory.getRegister(0) > 0) {
     insTranslator.jump(args[1]);
   }
 }
 
-bool InstructionJZero::successful() {
+bool InstructionJGTZ::successful() {
   return true; //cant go wrong
 }
 
-string InstructionJZero::errorMessage() {
+string InstructionJGTZ::errorMessage() {
   return "no error";
 }
