@@ -26,13 +26,13 @@ void RAMOutput::printOutput() {
   cout << endl;
 }
 
-void RAMOutput::deleteFileContent(){
+void RAMOutput::deleteFileContent() {
   std::ofstream ofs;
   ofs.open(filePath, std::ofstream::out | std::ofstream::trunc); // cleared when truncated
   ofs.close();
 }
 
-void RAMOutput::writeFile(int value){
+void RAMOutput::writeFile(int value) {
   ofstream inFile;
   inFile.open(filePath, std::ios::app); // should append at the end of the file
   inFile << value << "\n";

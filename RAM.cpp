@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 
+#include "Instructions/InstructionRest.h"
 #include "Instructions/InstructionLoad.h"
 #include "Instructions/InstructionStore.h"
 #include "Instructions/InstructionAdd.h"
@@ -67,16 +68,12 @@ void RAM::printCurrentInstruction() {
   }
 }
 
-//CAMBIARLO PARA QUE CONTINUE MIENTRAS DEVUELVA SIZE 0 Y SIGAN HABIENDO INSTRUCCIONES
 
 /**
  * Obtain and execute the next valid instruction on the source file
  */
 void RAM::executeInstruction() {
   vector<string> nextInstruction;
-  // next instruction obtained from translator may be unsuited or empty, 
-  // obtain more instructions until one is valid and while there are
-  // instructions available
   while (nextInstruction.empty() && insTranslator.moreInstructions()) {
     nextInstruction = insTranslator.nextInstruction();
     if (!nextInstruction.empty()) { // valid ins found
@@ -87,8 +84,6 @@ void RAM::executeInstruction() {
   }
 }
 
-                                            //CAMBIAR VALORES CABLEADOS POR CONSTANTES
-                                            //DISSASEMBLE = OBTENER LA IMPLEMENTACION DE LA INSTRUCCION EN FORMA DE TEXTO
 
 /**
  * @brief Auxiliary function of executeInstructions()
@@ -102,6 +97,8 @@ void RAM::interpretInstruction(vector<string> instructionArgs) {
     setCurrentInstruction(new InstructionStore(instructionArgs, memory, input, output, insTranslator));
   } else if (opCode.compare("add") == 0) {
     setCurrentInstruction(new InstructionAdd(instructionArgs, memory, input, output, insTranslator));
+  } else if (opCode.compare("rest") == 0) {
+    setCurrentInstruction(new InstructionRest(instructionArgs, memory, input, output, insTranslator));
   } else if (opCode.compare("sub") == 0) {
     setCurrentInstruction(new InstructionSub(instructionArgs, memory, input, output, insTranslator));
   } else if (opCode.compare("mul") == 0 || opCode.compare("mult") == 0) {

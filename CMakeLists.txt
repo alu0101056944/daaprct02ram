@@ -10,6 +10,7 @@ add_library(Practica2Implementation
     Memory.cpp
     Instructions/Instruction.cpp
     Instructions/InstructionLoad.cpp
+    Instructions/InstructionRest.cpp
     Instructions/InstructionHalt.cpp
     Instructions/InstructionStore.cpp
     Instructions/InstructionAdd.cpp
