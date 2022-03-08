@@ -15,7 +15,7 @@ using namespace std;
 class InstructionHalt : public Instruction {
 public:
   InstructionHalt(vector<string> args, Memory& mem, RAMInput& input,
-      RAMOutput& output, InstructionTranslator& insTranslator); //mem, entrada, salida, args
+      RAMOutput& output, InstructionsTable& insTranslator); //mem, entrada, salida, args
 
   virtual ~InstructionHalt() {};
 

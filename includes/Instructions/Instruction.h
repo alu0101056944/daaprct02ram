@@ -7,14 +7,14 @@
 #include "../RAMInput.h"
 #include "../RAMOutput.h"
 #include "../Memory.h"
-#include "../InstructionTranslator.h"
+#include "../instructions_table.h"
 
 using namespace std;
 
 class Instruction {
 public:
   Instruction(vector<string> args, Memory& memory, RAMInput& input,
-    RAMOutput& output, InstructionTranslator& insTranslator);
+    RAMOutput& output, InstructionsTable& insTranslator);
 
   virtual ~Instruction() = default;
   virtual void execute() = 0;
@@ -42,7 +42,7 @@ protected:
   Memory& memory;
   RAMInput& input;
   RAMOutput& output;
-  InstructionTranslator& insTranslator;
+  InstructionsTable& insTranslator;
 
   int passedValue;
   bool isIndirectValue, isInmediateValue;

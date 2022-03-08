@@ -10,7 +10,7 @@ InstructionLoad::InstructionLoad(
     Memory& mem,
     RAMInput& input,
     RAMOutput& output,
-    InstructionTranslator& insTranslator
+    InstructionsTable& insTranslator
   ) : 
     Instruction(args, mem, input, output, insTranslator),
     obtainedValue(0) {

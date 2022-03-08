@@ -8,47 +8,35 @@ void initiateDebugMenu(RAM& ram) {
   bool programOn = true;
   while (programOn != false) {
     cout << endl << ">h\n";
-    cout << "r: ver los registros\n";
-    cout << "t: traza\n";
     cout << "e: ejecutar\n";
-    cout << "s: desensamblador \n";
-    cout << "i: ver cinta entrada \n";
+    cout << "r: ver los registros\n";
+    cout << "i: ver cinta entrada\n";
     cout << "o: ver cinta salida \n";
-    cout << "h: ayuda\n";
     cout << "x: salir\n";
     cout << ">";
 
     cin >> choice;
 
     switch (choice) {
-      case 'r':
-        ram.printRegisters();
-        break;
-      case 't':
-        ram.printTrace();
-        break;
       case 'e':
         if (!ram.hasFinishedExecution()) {
           ram.executeInstruction();
-          ram.printCurrentInstruction();
-          ram.printRegisters();
+          ram.printCurrentInstructionInfo();
+          ram.printMemoryRegisters();
           ram.printInput();
           ram.printOutput();
         } else {
           cout << "Program execution has ended." << endl;
         }
         break;
-      case 's':
-        cout << "Not implemented.\n";
+      case 'r':
+        ram.printMemoryRegisters();
         break;
       case 'i':
         ram.printInput();
         break;
       case 'o':
         ram.printOutput();
-        break;
-      case 'h':
-        cout << "No help included.\n";
         break;
       case 'x':
         programOn = false;
@@ -65,11 +53,11 @@ void initiateDebugMenu(RAM& ram) {
 int main(int argc, char** argv) {
   if (argc >= 5) {
     RAM r(argv[1], argv[2], argv[3]);
-    auto isOnDebugMode = stoi(argv[4]) == 0;
-    if (isOnDebugMode) {
+    auto isOnDebugMode = stoi(argv[4]) == 1;
+    if (!isOnDebugMode) {
       r.executeProgram();
       r.printInstructionAmount();
-      r.printRegisters();
+      r.printMemoryRegisters();
       r.printInput();
       r.printOutput();
       return 0;

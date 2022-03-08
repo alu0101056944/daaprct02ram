@@ -15,7 +15,7 @@ using namespace std;
 class InstructionSub : public Instruction {
 public:
   InstructionSub(vector<string> args, Memory& mem, RAMInput& input,
-      RAMOutput& output, InstructionTranslator& insTranslator); //mem, entrada, salida, args
+      RAMOutput& output, InstructionsTable& insTranslator); //mem, entrada, salida, args
 
   virtual ~InstructionSub() {};
 

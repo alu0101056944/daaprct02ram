@@ -19,7 +19,7 @@ void RAMInput::printInput() {
   cout << endl << "-- Input: " << endl;
   for (int i = 0; i < registers.size(); i++) {
     cout << registers.at(i);
-    if (i==offset) {
+    if (i == offset) {
       cout << "(HERE)";
     }
     if(i != (registers.size() - 1)){
@@ -31,14 +31,12 @@ void RAMInput::printInput() {
 
 void RAMInput::readFile(string filePathParam) {
   ifstream inFile(filePathParam);
-
   string line;
   while (getline(inFile, line)) {
     if(line.length() > 0){ // solo si no es una linea vacia
       stringstream cadena(line); 
       int valorNumerico = 0;
       cadena >> valorNumerico; // pasamos string a int
-
       registers.push_back(valorNumerico);
     }
   }

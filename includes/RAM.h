@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include "InstructionTranslator.h"
+#include "instructions_table.h"
 #include "RAMInput.h"
 #include "RAMOutput.h"
 #include "Memory.h"
@@ -15,40 +15,50 @@ class RAM {
 public:
   RAM(string programPath, string inputPath, string outputPath);
 
-  void printHelp();
+  /**
+   * @brief For Strategy pattern. Sets the final instruction to execute.
+   */
+  void chooseInstruction(vector<string> instructionArgs);
+
+  /**
+   * @brief Execute a single instruction.
+   */
+  void executeInstruction();
+
+  /**
+   * @brief Execute the whole program directly.
+   */
+  void executeProgram();
+
+  /**
+   * @brief To check if it's still executing or on halt. Main menu uses this.
+   */
+  bool hasFinishedExecution();
+
   void printInput();
   void printOutput();
   void printInstructionAmount();
-  void printCurrentInstruction();
-  void printRegisters();
-  void printTrace();
-  void executeInstruction();
-  void executeProgram();
-  bool hasFinishedExecution();
+  void printMemoryRegisters();
+  void printCurrentInstructionInfo();
 private:
-  vector<string> isa; // list of executable instruction codes
   int numberOfInsExecuted;
+  bool halt;
   Instruction* ptrLatestExecutedInstruction;
 
-  InstructionTranslator insTranslator;
+  InstructionsTable instructionsTable;
   Memory memory;
   RAMInput input;
   RAMOutput output;
   
-  bool halt;
-
   /**
-   * Set the instruction set architecture including only the instruction codes
+   * @brief Auxiliary function of executeFunction(). Executes the instruction
+   *    and check if it was successful. Halt otherwise.
    */
-  void initializeISA();
+  void interpretInstruction();
 
   /**
-   * Executes the right instruction depending on the opCode
-   */
-  void interpretInstruction(vector<string> instructionArgs);
-
-  /**
-   * Dynamically changes current instruction to be executed
+   * @brief Auxiliary function of chooseFuncton(). Sets the pointer to the new
+   *    instruction.
    */
   void setCurrentInstruction(Instruction* ptrCurrentInstruction);
 };

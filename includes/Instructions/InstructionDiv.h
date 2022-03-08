@@ -15,7 +15,7 @@ using namespace std;
 class InstructionDiv : public Instruction {
 public:
   InstructionDiv(vector<string> args, Memory& mem, RAMInput& input,
-    RAMOutput& output, InstructionTranslator& insTranslator); //mem, entrada, salida, args
+    RAMOutput& output, InstructionsTable& insTranslator); //mem, entrada, salida, args
 
   virtual ~InstructionDiv() {};
 

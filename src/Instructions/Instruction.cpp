@@ -7,7 +7,7 @@ Instruction::Instruction(
     Memory& memory,
     RAMInput& input,
     RAMOutput& output,
-    InstructionTranslator& insTranslator
+    InstructionsTable& insTranslator
   ) : 
     args(args),
     memory(memory),

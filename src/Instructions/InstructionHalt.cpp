@@ -8,7 +8,7 @@ InstructionHalt::InstructionHalt(
     Memory& mem,
     RAMInput& input,
     RAMOutput& output,
-    InstructionTranslator& insTranslator
+    InstructionsTable& insTranslator
   ) : 
     Instruction(args, mem, input, output, insTranslator) {}
 
@@ -21,5 +21,5 @@ bool InstructionHalt::successful() {
 }
 
 string InstructionHalt::errorMessage() {
-  return "no error";
+  return "Error: Halted instruction didn't execute right.";
 }
