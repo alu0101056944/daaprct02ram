@@ -1,0 +1,19 @@
+
+				LOAD =2
+        STORE 3
+				LOAD =1
+        STORE 2
+bucle:	READ 1
+        LOAD 1
+        store 5
+        jump checkpar
+continue: load 5
+           JZERO fin
+           MUL 2
+           STORE 2
+           jump bucle
+checkpar: rest 3
+          jzero continue # continuar con el valor actual
+          jump bucle # siguiente valor
+fin:		  WRITE 2
+				  HALT

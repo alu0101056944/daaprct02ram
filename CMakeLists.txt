@@ -24,7 +24,7 @@ add_library(Practica2Implementation
     Instructions/InstructionJZero.cpp
     )
 
-add_executable(Practica2Programa main.cpp)
+add_executable(Practica2Programa src/main.cpp)
 
 target_include_directories(Practica2Programa PRIVATE "./Instructions")
 target_link_libraries(Practica2Programa Practica2Implementation)
