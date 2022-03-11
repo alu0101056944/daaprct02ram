@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2
+CMAKE_SOURCE_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build
+CMAKE_BINARY_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Practica2Programa.dir/depend.make
@@ -68,35 +68,35 @@ include CMakeFiles/Practica2Programa.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Practica2Programa.dir/flags.make
 
-CMakeFiles/Practica2Programa.dir/main.cpp.obj: CMakeFiles/Practica2Programa.dir/flags.make
-CMakeFiles/Practica2Programa.dir/main.cpp.obj: CMakeFiles/Practica2Programa.dir/includes_CXX.rsp
-CMakeFiles/Practica2Programa.dir/main.cpp.obj: ../main.cpp
-CMakeFiles/Practica2Programa.dir/main.cpp.obj: CMakeFiles/Practica2Programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica2Programa.dir/main.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Programa.dir/main.cpp.obj -MF CMakeFiles\Practica2Programa.dir\main.cpp.obj.d -o CMakeFiles\Practica2Programa.dir\main.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\main.cpp
+CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: CMakeFiles/Practica2Programa.dir/flags.make
+CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: CMakeFiles/Practica2Programa.dir/includes_CXX.rsp
+CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: ../src/main.cpp
+CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: CMakeFiles/Practica2Programa.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica2Programa.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Programa.dir/src/main.cpp.obj -MF CMakeFiles\Practica2Programa.dir\src\main.cpp.obj.d -o CMakeFiles\Practica2Programa.dir\src\main.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp
 
-CMakeFiles/Practica2Programa.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Programa.dir/main.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\main.cpp > CMakeFiles\Practica2Programa.dir\main.cpp.i
+CMakeFiles/Practica2Programa.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Programa.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp > CMakeFiles\Practica2Programa.dir\src\main.cpp.i
 
-CMakeFiles/Practica2Programa.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Programa.dir/main.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\main.cpp -o CMakeFiles\Practica2Programa.dir\main.cpp.s
+CMakeFiles/Practica2Programa.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Programa.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp -o CMakeFiles\Practica2Programa.dir\src\main.cpp.s
 
 # Object files for target Practica2Programa
 Practica2Programa_OBJECTS = \
-"CMakeFiles/Practica2Programa.dir/main.cpp.obj"
+"CMakeFiles/Practica2Programa.dir/src/main.cpp.obj"
 
 # External object files for target Practica2Programa
 Practica2Programa_EXTERNAL_OBJECTS =
 
-Practica2Programa.exe: CMakeFiles/Practica2Programa.dir/main.cpp.obj
+Practica2Programa.exe: CMakeFiles/Practica2Programa.dir/src/main.cpp.obj
 Practica2Programa.exe: CMakeFiles/Practica2Programa.dir/build.make
 Practica2Programa.exe: libPractica2Implementation.a
 Practica2Programa.exe: CMakeFiles/Practica2Programa.dir/linklibs.rsp
 Practica2Programa.exe: CMakeFiles/Practica2Programa.dir/objects1.rsp
 Practica2Programa.exe: CMakeFiles/Practica2Programa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Practica2Programa.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Practica2Programa.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Practica2Programa.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/Practica2Programa.dir/clean:
 .PHONY : CMakeFiles/Practica2Programa.dir/clean
 
 CMakeFiles/Practica2Programa.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2 C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2 C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles\Practica2Programa.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles\Practica2Programa.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Practica2Programa.dir/depend
 

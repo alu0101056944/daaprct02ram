@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2
+CMAKE_SOURCE_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build
+CMAKE_BINARY_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,509 +141,485 @@ Practica2Programa/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Programa.dir\build.make CMakeFiles/Practica2Programa.dir/build
 .PHONY : Practica2Programa/fast
 
-IOHandler.obj: IOHandler.cpp.obj
-.PHONY : IOHandler.obj
+src/Instructions/Instruction.obj: src/Instructions/Instruction.cpp.obj
+.PHONY : src/Instructions/Instruction.obj
 
 # target to build an object file
-IOHandler.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.obj
-.PHONY : IOHandler.cpp.obj
+src/Instructions/Instruction.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.obj
+.PHONY : src/Instructions/Instruction.cpp.obj
 
-IOHandler.i: IOHandler.cpp.i
-.PHONY : IOHandler.i
+src/Instructions/Instruction.i: src/Instructions/Instruction.cpp.i
+.PHONY : src/Instructions/Instruction.i
 
 # target to preprocess a source file
-IOHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.i
-.PHONY : IOHandler.cpp.i
+src/Instructions/Instruction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.i
+.PHONY : src/Instructions/Instruction.cpp.i
 
-IOHandler.s: IOHandler.cpp.s
-.PHONY : IOHandler.s
+src/Instructions/Instruction.s: src/Instructions/Instruction.cpp.s
+.PHONY : src/Instructions/Instruction.s
 
 # target to generate assembly for a file
-IOHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.s
-.PHONY : IOHandler.cpp.s
+src/Instructions/Instruction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.s
+.PHONY : src/Instructions/Instruction.cpp.s
 
-InstructionTranslator.obj: InstructionTranslator.cpp.obj
-.PHONY : InstructionTranslator.obj
+src/Instructions/InstructionAdd.obj: src/Instructions/InstructionAdd.cpp.obj
+.PHONY : src/Instructions/InstructionAdd.obj
 
 # target to build an object file
-InstructionTranslator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.obj
-.PHONY : InstructionTranslator.cpp.obj
+src/Instructions/InstructionAdd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.obj
+.PHONY : src/Instructions/InstructionAdd.cpp.obj
 
-InstructionTranslator.i: InstructionTranslator.cpp.i
-.PHONY : InstructionTranslator.i
+src/Instructions/InstructionAdd.i: src/Instructions/InstructionAdd.cpp.i
+.PHONY : src/Instructions/InstructionAdd.i
 
 # target to preprocess a source file
-InstructionTranslator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.i
-.PHONY : InstructionTranslator.cpp.i
+src/Instructions/InstructionAdd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.i
+.PHONY : src/Instructions/InstructionAdd.cpp.i
 
-InstructionTranslator.s: InstructionTranslator.cpp.s
-.PHONY : InstructionTranslator.s
+src/Instructions/InstructionAdd.s: src/Instructions/InstructionAdd.cpp.s
+.PHONY : src/Instructions/InstructionAdd.s
 
 # target to generate assembly for a file
-InstructionTranslator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.s
-.PHONY : InstructionTranslator.cpp.s
+src/Instructions/InstructionAdd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.s
+.PHONY : src/Instructions/InstructionAdd.cpp.s
 
-Instructions/Instruction.obj: Instructions/Instruction.cpp.obj
-.PHONY : Instructions/Instruction.obj
+src/Instructions/InstructionDiv.obj: src/Instructions/InstructionDiv.cpp.obj
+.PHONY : src/Instructions/InstructionDiv.obj
 
 # target to build an object file
-Instructions/Instruction.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.obj
-.PHONY : Instructions/Instruction.cpp.obj
+src/Instructions/InstructionDiv.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.obj
+.PHONY : src/Instructions/InstructionDiv.cpp.obj
 
-Instructions/Instruction.i: Instructions/Instruction.cpp.i
-.PHONY : Instructions/Instruction.i
+src/Instructions/InstructionDiv.i: src/Instructions/InstructionDiv.cpp.i
+.PHONY : src/Instructions/InstructionDiv.i
 
 # target to preprocess a source file
-Instructions/Instruction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.i
-.PHONY : Instructions/Instruction.cpp.i
+src/Instructions/InstructionDiv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.i
+.PHONY : src/Instructions/InstructionDiv.cpp.i
 
-Instructions/Instruction.s: Instructions/Instruction.cpp.s
-.PHONY : Instructions/Instruction.s
+src/Instructions/InstructionDiv.s: src/Instructions/InstructionDiv.cpp.s
+.PHONY : src/Instructions/InstructionDiv.s
 
 # target to generate assembly for a file
-Instructions/Instruction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.s
-.PHONY : Instructions/Instruction.cpp.s
+src/Instructions/InstructionDiv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.s
+.PHONY : src/Instructions/InstructionDiv.cpp.s
 
-Instructions/InstructionAdd.obj: Instructions/InstructionAdd.cpp.obj
-.PHONY : Instructions/InstructionAdd.obj
+src/Instructions/InstructionHalt.obj: src/Instructions/InstructionHalt.cpp.obj
+.PHONY : src/Instructions/InstructionHalt.obj
 
 # target to build an object file
-Instructions/InstructionAdd.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.obj
-.PHONY : Instructions/InstructionAdd.cpp.obj
+src/Instructions/InstructionHalt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.obj
+.PHONY : src/Instructions/InstructionHalt.cpp.obj
 
-Instructions/InstructionAdd.i: Instructions/InstructionAdd.cpp.i
-.PHONY : Instructions/InstructionAdd.i
+src/Instructions/InstructionHalt.i: src/Instructions/InstructionHalt.cpp.i
+.PHONY : src/Instructions/InstructionHalt.i
 
 # target to preprocess a source file
-Instructions/InstructionAdd.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.i
-.PHONY : Instructions/InstructionAdd.cpp.i
+src/Instructions/InstructionHalt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.i
+.PHONY : src/Instructions/InstructionHalt.cpp.i
 
-Instructions/InstructionAdd.s: Instructions/InstructionAdd.cpp.s
-.PHONY : Instructions/InstructionAdd.s
+src/Instructions/InstructionHalt.s: src/Instructions/InstructionHalt.cpp.s
+.PHONY : src/Instructions/InstructionHalt.s
 
 # target to generate assembly for a file
-Instructions/InstructionAdd.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.s
-.PHONY : Instructions/InstructionAdd.cpp.s
+src/Instructions/InstructionHalt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.s
+.PHONY : src/Instructions/InstructionHalt.cpp.s
 
-Instructions/InstructionDiv.obj: Instructions/InstructionDiv.cpp.obj
-.PHONY : Instructions/InstructionDiv.obj
+src/Instructions/InstructionJGTZ.obj: src/Instructions/InstructionJGTZ.cpp.obj
+.PHONY : src/Instructions/InstructionJGTZ.obj
 
 # target to build an object file
-Instructions/InstructionDiv.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.obj
-.PHONY : Instructions/InstructionDiv.cpp.obj
+src/Instructions/InstructionJGTZ.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.obj
+.PHONY : src/Instructions/InstructionJGTZ.cpp.obj
 
-Instructions/InstructionDiv.i: Instructions/InstructionDiv.cpp.i
-.PHONY : Instructions/InstructionDiv.i
+src/Instructions/InstructionJGTZ.i: src/Instructions/InstructionJGTZ.cpp.i
+.PHONY : src/Instructions/InstructionJGTZ.i
 
 # target to preprocess a source file
-Instructions/InstructionDiv.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.i
-.PHONY : Instructions/InstructionDiv.cpp.i
+src/Instructions/InstructionJGTZ.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.i
+.PHONY : src/Instructions/InstructionJGTZ.cpp.i
 
-Instructions/InstructionDiv.s: Instructions/InstructionDiv.cpp.s
-.PHONY : Instructions/InstructionDiv.s
+src/Instructions/InstructionJGTZ.s: src/Instructions/InstructionJGTZ.cpp.s
+.PHONY : src/Instructions/InstructionJGTZ.s
 
 # target to generate assembly for a file
-Instructions/InstructionDiv.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.s
-.PHONY : Instructions/InstructionDiv.cpp.s
+src/Instructions/InstructionJGTZ.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.s
+.PHONY : src/Instructions/InstructionJGTZ.cpp.s
 
-Instructions/InstructionHalt.obj: Instructions/InstructionHalt.cpp.obj
-.PHONY : Instructions/InstructionHalt.obj
+src/Instructions/InstructionJZero.obj: src/Instructions/InstructionJZero.cpp.obj
+.PHONY : src/Instructions/InstructionJZero.obj
 
 # target to build an object file
-Instructions/InstructionHalt.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.obj
-.PHONY : Instructions/InstructionHalt.cpp.obj
+src/Instructions/InstructionJZero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.obj
+.PHONY : src/Instructions/InstructionJZero.cpp.obj
 
-Instructions/InstructionHalt.i: Instructions/InstructionHalt.cpp.i
-.PHONY : Instructions/InstructionHalt.i
+src/Instructions/InstructionJZero.i: src/Instructions/InstructionJZero.cpp.i
+.PHONY : src/Instructions/InstructionJZero.i
 
 # target to preprocess a source file
-Instructions/InstructionHalt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.i
-.PHONY : Instructions/InstructionHalt.cpp.i
+src/Instructions/InstructionJZero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.i
+.PHONY : src/Instructions/InstructionJZero.cpp.i
 
-Instructions/InstructionHalt.s: Instructions/InstructionHalt.cpp.s
-.PHONY : Instructions/InstructionHalt.s
+src/Instructions/InstructionJZero.s: src/Instructions/InstructionJZero.cpp.s
+.PHONY : src/Instructions/InstructionJZero.s
 
 # target to generate assembly for a file
-Instructions/InstructionHalt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.s
-.PHONY : Instructions/InstructionHalt.cpp.s
+src/Instructions/InstructionJZero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.s
+.PHONY : src/Instructions/InstructionJZero.cpp.s
 
-Instructions/InstructionJGTZ.obj: Instructions/InstructionJGTZ.cpp.obj
-.PHONY : Instructions/InstructionJGTZ.obj
+src/Instructions/InstructionJump.obj: src/Instructions/InstructionJump.cpp.obj
+.PHONY : src/Instructions/InstructionJump.obj
 
 # target to build an object file
-Instructions/InstructionJGTZ.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.obj
-.PHONY : Instructions/InstructionJGTZ.cpp.obj
+src/Instructions/InstructionJump.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.obj
+.PHONY : src/Instructions/InstructionJump.cpp.obj
 
-Instructions/InstructionJGTZ.i: Instructions/InstructionJGTZ.cpp.i
-.PHONY : Instructions/InstructionJGTZ.i
+src/Instructions/InstructionJump.i: src/Instructions/InstructionJump.cpp.i
+.PHONY : src/Instructions/InstructionJump.i
 
 # target to preprocess a source file
-Instructions/InstructionJGTZ.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.i
-.PHONY : Instructions/InstructionJGTZ.cpp.i
+src/Instructions/InstructionJump.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.i
+.PHONY : src/Instructions/InstructionJump.cpp.i
 
-Instructions/InstructionJGTZ.s: Instructions/InstructionJGTZ.cpp.s
-.PHONY : Instructions/InstructionJGTZ.s
+src/Instructions/InstructionJump.s: src/Instructions/InstructionJump.cpp.s
+.PHONY : src/Instructions/InstructionJump.s
 
 # target to generate assembly for a file
-Instructions/InstructionJGTZ.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.s
-.PHONY : Instructions/InstructionJGTZ.cpp.s
+src/Instructions/InstructionJump.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.s
+.PHONY : src/Instructions/InstructionJump.cpp.s
 
-Instructions/InstructionJZero.obj: Instructions/InstructionJZero.cpp.obj
-.PHONY : Instructions/InstructionJZero.obj
+src/Instructions/InstructionLoad.obj: src/Instructions/InstructionLoad.cpp.obj
+.PHONY : src/Instructions/InstructionLoad.obj
 
 # target to build an object file
-Instructions/InstructionJZero.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.obj
-.PHONY : Instructions/InstructionJZero.cpp.obj
+src/Instructions/InstructionLoad.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.obj
+.PHONY : src/Instructions/InstructionLoad.cpp.obj
 
-Instructions/InstructionJZero.i: Instructions/InstructionJZero.cpp.i
-.PHONY : Instructions/InstructionJZero.i
+src/Instructions/InstructionLoad.i: src/Instructions/InstructionLoad.cpp.i
+.PHONY : src/Instructions/InstructionLoad.i
 
 # target to preprocess a source file
-Instructions/InstructionJZero.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.i
-.PHONY : Instructions/InstructionJZero.cpp.i
+src/Instructions/InstructionLoad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.i
+.PHONY : src/Instructions/InstructionLoad.cpp.i
 
-Instructions/InstructionJZero.s: Instructions/InstructionJZero.cpp.s
-.PHONY : Instructions/InstructionJZero.s
+src/Instructions/InstructionLoad.s: src/Instructions/InstructionLoad.cpp.s
+.PHONY : src/Instructions/InstructionLoad.s
 
 # target to generate assembly for a file
-Instructions/InstructionJZero.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.s
-.PHONY : Instructions/InstructionJZero.cpp.s
+src/Instructions/InstructionLoad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.s
+.PHONY : src/Instructions/InstructionLoad.cpp.s
 
-Instructions/InstructionJump.obj: Instructions/InstructionJump.cpp.obj
-.PHONY : Instructions/InstructionJump.obj
+src/Instructions/InstructionMult.obj: src/Instructions/InstructionMult.cpp.obj
+.PHONY : src/Instructions/InstructionMult.obj
 
 # target to build an object file
-Instructions/InstructionJump.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.obj
-.PHONY : Instructions/InstructionJump.cpp.obj
+src/Instructions/InstructionMult.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.obj
+.PHONY : src/Instructions/InstructionMult.cpp.obj
 
-Instructions/InstructionJump.i: Instructions/InstructionJump.cpp.i
-.PHONY : Instructions/InstructionJump.i
+src/Instructions/InstructionMult.i: src/Instructions/InstructionMult.cpp.i
+.PHONY : src/Instructions/InstructionMult.i
 
 # target to preprocess a source file
-Instructions/InstructionJump.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.i
-.PHONY : Instructions/InstructionJump.cpp.i
+src/Instructions/InstructionMult.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.i
+.PHONY : src/Instructions/InstructionMult.cpp.i
 
-Instructions/InstructionJump.s: Instructions/InstructionJump.cpp.s
-.PHONY : Instructions/InstructionJump.s
+src/Instructions/InstructionMult.s: src/Instructions/InstructionMult.cpp.s
+.PHONY : src/Instructions/InstructionMult.s
 
 # target to generate assembly for a file
-Instructions/InstructionJump.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.s
-.PHONY : Instructions/InstructionJump.cpp.s
+src/Instructions/InstructionMult.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.s
+.PHONY : src/Instructions/InstructionMult.cpp.s
 
-Instructions/InstructionLoad.obj: Instructions/InstructionLoad.cpp.obj
-.PHONY : Instructions/InstructionLoad.obj
+src/Instructions/InstructionRead.obj: src/Instructions/InstructionRead.cpp.obj
+.PHONY : src/Instructions/InstructionRead.obj
 
 # target to build an object file
-Instructions/InstructionLoad.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.obj
-.PHONY : Instructions/InstructionLoad.cpp.obj
+src/Instructions/InstructionRead.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.obj
+.PHONY : src/Instructions/InstructionRead.cpp.obj
 
-Instructions/InstructionLoad.i: Instructions/InstructionLoad.cpp.i
-.PHONY : Instructions/InstructionLoad.i
+src/Instructions/InstructionRead.i: src/Instructions/InstructionRead.cpp.i
+.PHONY : src/Instructions/InstructionRead.i
 
 # target to preprocess a source file
-Instructions/InstructionLoad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.i
-.PHONY : Instructions/InstructionLoad.cpp.i
+src/Instructions/InstructionRead.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.i
+.PHONY : src/Instructions/InstructionRead.cpp.i
 
-Instructions/InstructionLoad.s: Instructions/InstructionLoad.cpp.s
-.PHONY : Instructions/InstructionLoad.s
+src/Instructions/InstructionRead.s: src/Instructions/InstructionRead.cpp.s
+.PHONY : src/Instructions/InstructionRead.s
 
 # target to generate assembly for a file
-Instructions/InstructionLoad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.s
-.PHONY : Instructions/InstructionLoad.cpp.s
+src/Instructions/InstructionRead.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.s
+.PHONY : src/Instructions/InstructionRead.cpp.s
 
-Instructions/InstructionMult.obj: Instructions/InstructionMult.cpp.obj
-.PHONY : Instructions/InstructionMult.obj
+src/Instructions/InstructionRest.obj: src/Instructions/InstructionRest.cpp.obj
+.PHONY : src/Instructions/InstructionRest.obj
 
 # target to build an object file
-Instructions/InstructionMult.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.obj
-.PHONY : Instructions/InstructionMult.cpp.obj
+src/Instructions/InstructionRest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.obj
+.PHONY : src/Instructions/InstructionRest.cpp.obj
 
-Instructions/InstructionMult.i: Instructions/InstructionMult.cpp.i
-.PHONY : Instructions/InstructionMult.i
+src/Instructions/InstructionRest.i: src/Instructions/InstructionRest.cpp.i
+.PHONY : src/Instructions/InstructionRest.i
 
 # target to preprocess a source file
-Instructions/InstructionMult.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.i
-.PHONY : Instructions/InstructionMult.cpp.i
+src/Instructions/InstructionRest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.i
+.PHONY : src/Instructions/InstructionRest.cpp.i
 
-Instructions/InstructionMult.s: Instructions/InstructionMult.cpp.s
-.PHONY : Instructions/InstructionMult.s
+src/Instructions/InstructionRest.s: src/Instructions/InstructionRest.cpp.s
+.PHONY : src/Instructions/InstructionRest.s
 
 # target to generate assembly for a file
-Instructions/InstructionMult.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.s
-.PHONY : Instructions/InstructionMult.cpp.s
+src/Instructions/InstructionRest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.s
+.PHONY : src/Instructions/InstructionRest.cpp.s
 
-Instructions/InstructionRead.obj: Instructions/InstructionRead.cpp.obj
-.PHONY : Instructions/InstructionRead.obj
+src/Instructions/InstructionStore.obj: src/Instructions/InstructionStore.cpp.obj
+.PHONY : src/Instructions/InstructionStore.obj
 
 # target to build an object file
-Instructions/InstructionRead.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.obj
-.PHONY : Instructions/InstructionRead.cpp.obj
+src/Instructions/InstructionStore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.obj
+.PHONY : src/Instructions/InstructionStore.cpp.obj
 
-Instructions/InstructionRead.i: Instructions/InstructionRead.cpp.i
-.PHONY : Instructions/InstructionRead.i
+src/Instructions/InstructionStore.i: src/Instructions/InstructionStore.cpp.i
+.PHONY : src/Instructions/InstructionStore.i
 
 # target to preprocess a source file
-Instructions/InstructionRead.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.i
-.PHONY : Instructions/InstructionRead.cpp.i
+src/Instructions/InstructionStore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.i
+.PHONY : src/Instructions/InstructionStore.cpp.i
 
-Instructions/InstructionRead.s: Instructions/InstructionRead.cpp.s
-.PHONY : Instructions/InstructionRead.s
+src/Instructions/InstructionStore.s: src/Instructions/InstructionStore.cpp.s
+.PHONY : src/Instructions/InstructionStore.s
 
 # target to generate assembly for a file
-Instructions/InstructionRead.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.s
-.PHONY : Instructions/InstructionRead.cpp.s
+src/Instructions/InstructionStore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.s
+.PHONY : src/Instructions/InstructionStore.cpp.s
 
-Instructions/InstructionRest.obj: Instructions/InstructionRest.cpp.obj
-.PHONY : Instructions/InstructionRest.obj
+src/Instructions/InstructionSub.obj: src/Instructions/InstructionSub.cpp.obj
+.PHONY : src/Instructions/InstructionSub.obj
 
 # target to build an object file
-Instructions/InstructionRest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.obj
-.PHONY : Instructions/InstructionRest.cpp.obj
+src/Instructions/InstructionSub.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.obj
+.PHONY : src/Instructions/InstructionSub.cpp.obj
 
-Instructions/InstructionRest.i: Instructions/InstructionRest.cpp.i
-.PHONY : Instructions/InstructionRest.i
+src/Instructions/InstructionSub.i: src/Instructions/InstructionSub.cpp.i
+.PHONY : src/Instructions/InstructionSub.i
 
 # target to preprocess a source file
-Instructions/InstructionRest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.i
-.PHONY : Instructions/InstructionRest.cpp.i
+src/Instructions/InstructionSub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.i
+.PHONY : src/Instructions/InstructionSub.cpp.i
 
-Instructions/InstructionRest.s: Instructions/InstructionRest.cpp.s
-.PHONY : Instructions/InstructionRest.s
+src/Instructions/InstructionSub.s: src/Instructions/InstructionSub.cpp.s
+.PHONY : src/Instructions/InstructionSub.s
 
 # target to generate assembly for a file
-Instructions/InstructionRest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.s
-.PHONY : Instructions/InstructionRest.cpp.s
+src/Instructions/InstructionSub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.s
+.PHONY : src/Instructions/InstructionSub.cpp.s
 
-Instructions/InstructionStore.obj: Instructions/InstructionStore.cpp.obj
-.PHONY : Instructions/InstructionStore.obj
+src/Instructions/InstructionWrite.obj: src/Instructions/InstructionWrite.cpp.obj
+.PHONY : src/Instructions/InstructionWrite.obj
 
 # target to build an object file
-Instructions/InstructionStore.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.obj
-.PHONY : Instructions/InstructionStore.cpp.obj
+src/Instructions/InstructionWrite.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.obj
+.PHONY : src/Instructions/InstructionWrite.cpp.obj
 
-Instructions/InstructionStore.i: Instructions/InstructionStore.cpp.i
-.PHONY : Instructions/InstructionStore.i
+src/Instructions/InstructionWrite.i: src/Instructions/InstructionWrite.cpp.i
+.PHONY : src/Instructions/InstructionWrite.i
 
 # target to preprocess a source file
-Instructions/InstructionStore.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.i
-.PHONY : Instructions/InstructionStore.cpp.i
+src/Instructions/InstructionWrite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.i
+.PHONY : src/Instructions/InstructionWrite.cpp.i
 
-Instructions/InstructionStore.s: Instructions/InstructionStore.cpp.s
-.PHONY : Instructions/InstructionStore.s
+src/Instructions/InstructionWrite.s: src/Instructions/InstructionWrite.cpp.s
+.PHONY : src/Instructions/InstructionWrite.s
 
 # target to generate assembly for a file
-Instructions/InstructionStore.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.s
-.PHONY : Instructions/InstructionStore.cpp.s
+src/Instructions/InstructionWrite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.s
+.PHONY : src/Instructions/InstructionWrite.cpp.s
 
-Instructions/InstructionSub.obj: Instructions/InstructionSub.cpp.obj
-.PHONY : Instructions/InstructionSub.obj
+src/Memory.obj: src/Memory.cpp.obj
+.PHONY : src/Memory.obj
 
 # target to build an object file
-Instructions/InstructionSub.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.obj
-.PHONY : Instructions/InstructionSub.cpp.obj
+src/Memory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.obj
+.PHONY : src/Memory.cpp.obj
 
-Instructions/InstructionSub.i: Instructions/InstructionSub.cpp.i
-.PHONY : Instructions/InstructionSub.i
+src/Memory.i: src/Memory.cpp.i
+.PHONY : src/Memory.i
 
 # target to preprocess a source file
-Instructions/InstructionSub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.i
-.PHONY : Instructions/InstructionSub.cpp.i
+src/Memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.i
+.PHONY : src/Memory.cpp.i
 
-Instructions/InstructionSub.s: Instructions/InstructionSub.cpp.s
-.PHONY : Instructions/InstructionSub.s
+src/Memory.s: src/Memory.cpp.s
+.PHONY : src/Memory.s
 
 # target to generate assembly for a file
-Instructions/InstructionSub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.s
-.PHONY : Instructions/InstructionSub.cpp.s
+src/Memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.s
+.PHONY : src/Memory.cpp.s
 
-Instructions/InstructionWrite.obj: Instructions/InstructionWrite.cpp.obj
-.PHONY : Instructions/InstructionWrite.obj
+src/RAM.obj: src/RAM.cpp.obj
+.PHONY : src/RAM.obj
 
 # target to build an object file
-Instructions/InstructionWrite.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.obj
-.PHONY : Instructions/InstructionWrite.cpp.obj
+src/RAM.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.obj
+.PHONY : src/RAM.cpp.obj
 
-Instructions/InstructionWrite.i: Instructions/InstructionWrite.cpp.i
-.PHONY : Instructions/InstructionWrite.i
+src/RAM.i: src/RAM.cpp.i
+.PHONY : src/RAM.i
 
 # target to preprocess a source file
-Instructions/InstructionWrite.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.i
-.PHONY : Instructions/InstructionWrite.cpp.i
+src/RAM.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.i
+.PHONY : src/RAM.cpp.i
 
-Instructions/InstructionWrite.s: Instructions/InstructionWrite.cpp.s
-.PHONY : Instructions/InstructionWrite.s
+src/RAM.s: src/RAM.cpp.s
+.PHONY : src/RAM.s
 
 # target to generate assembly for a file
-Instructions/InstructionWrite.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.s
-.PHONY : Instructions/InstructionWrite.cpp.s
+src/RAM.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.s
+.PHONY : src/RAM.cpp.s
 
-Memory.obj: Memory.cpp.obj
-.PHONY : Memory.obj
+src/RAMInput.obj: src/RAMInput.cpp.obj
+.PHONY : src/RAMInput.obj
 
 # target to build an object file
-Memory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Memory.cpp.obj
-.PHONY : Memory.cpp.obj
+src/RAMInput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.obj
+.PHONY : src/RAMInput.cpp.obj
 
-Memory.i: Memory.cpp.i
-.PHONY : Memory.i
+src/RAMInput.i: src/RAMInput.cpp.i
+.PHONY : src/RAMInput.i
 
 # target to preprocess a source file
-Memory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Memory.cpp.i
-.PHONY : Memory.cpp.i
+src/RAMInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.i
+.PHONY : src/RAMInput.cpp.i
 
-Memory.s: Memory.cpp.s
-.PHONY : Memory.s
+src/RAMInput.s: src/RAMInput.cpp.s
+.PHONY : src/RAMInput.s
 
 # target to generate assembly for a file
-Memory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/Memory.cpp.s
-.PHONY : Memory.cpp.s
+src/RAMInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.s
+.PHONY : src/RAMInput.cpp.s
 
-RAM.obj: RAM.cpp.obj
-.PHONY : RAM.obj
+src/RAMOutput.obj: src/RAMOutput.cpp.obj
+.PHONY : src/RAMOutput.obj
 
 # target to build an object file
-RAM.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAM.cpp.obj
-.PHONY : RAM.cpp.obj
+src/RAMOutput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj
+.PHONY : src/RAMOutput.cpp.obj
 
-RAM.i: RAM.cpp.i
-.PHONY : RAM.i
+src/RAMOutput.i: src/RAMOutput.cpp.i
+.PHONY : src/RAMOutput.i
 
 # target to preprocess a source file
-RAM.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAM.cpp.i
-.PHONY : RAM.cpp.i
+src/RAMOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.i
+.PHONY : src/RAMOutput.cpp.i
 
-RAM.s: RAM.cpp.s
-.PHONY : RAM.s
+src/RAMOutput.s: src/RAMOutput.cpp.s
+.PHONY : src/RAMOutput.s
 
 # target to generate assembly for a file
-RAM.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAM.cpp.s
-.PHONY : RAM.cpp.s
+src/RAMOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.s
+.PHONY : src/RAMOutput.cpp.s
 
-RAMInput.obj: RAMInput.cpp.obj
-.PHONY : RAMInput.obj
+src/instructions_table.obj: src/instructions_table.cpp.obj
+.PHONY : src/instructions_table.obj
 
 # target to build an object file
-RAMInput.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.obj
-.PHONY : RAMInput.cpp.obj
+src/instructions_table.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.obj
+.PHONY : src/instructions_table.cpp.obj
 
-RAMInput.i: RAMInput.cpp.i
-.PHONY : RAMInput.i
+src/instructions_table.i: src/instructions_table.cpp.i
+.PHONY : src/instructions_table.i
 
 # target to preprocess a source file
-RAMInput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.i
-.PHONY : RAMInput.cpp.i
+src/instructions_table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.i
+.PHONY : src/instructions_table.cpp.i
 
-RAMInput.s: RAMInput.cpp.s
-.PHONY : RAMInput.s
+src/instructions_table.s: src/instructions_table.cpp.s
+.PHONY : src/instructions_table.s
 
 # target to generate assembly for a file
-RAMInput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.s
-.PHONY : RAMInput.cpp.s
+src/instructions_table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.s
+.PHONY : src/instructions_table.cpp.s
 
-RAMOutput.obj: RAMOutput.cpp.obj
-.PHONY : RAMOutput.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-RAMOutput.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.obj
-.PHONY : RAMOutput.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Programa.dir\build.make CMakeFiles/Practica2Programa.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-RAMOutput.i: RAMOutput.cpp.i
-.PHONY : RAMOutput.i
-
-# target to preprocess a source file
-RAMOutput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.i
-.PHONY : RAMOutput.cpp.i
-
-RAMOutput.s: RAMOutput.cpp.s
-.PHONY : RAMOutput.s
-
-# target to generate assembly for a file
-RAMOutput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Implementation.dir\build.make CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.s
-.PHONY : RAMOutput.cpp.s
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Programa.dir\build.make CMakeFiles/Practica2Programa.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Programa.dir\build.make CMakeFiles/Practica2Programa.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Programa.dir\build.make CMakeFiles/Practica2Programa.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Programa.dir\build.make CMakeFiles/Practica2Programa.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica2Programa.dir\build.make CMakeFiles/Practica2Programa.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -655,69 +631,66 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Practica2Implementation
 	@echo ... Practica2Programa
-	@echo ... IOHandler.obj
-	@echo ... IOHandler.i
-	@echo ... IOHandler.s
-	@echo ... InstructionTranslator.obj
-	@echo ... InstructionTranslator.i
-	@echo ... InstructionTranslator.s
-	@echo ... Instructions/Instruction.obj
-	@echo ... Instructions/Instruction.i
-	@echo ... Instructions/Instruction.s
-	@echo ... Instructions/InstructionAdd.obj
-	@echo ... Instructions/InstructionAdd.i
-	@echo ... Instructions/InstructionAdd.s
-	@echo ... Instructions/InstructionDiv.obj
-	@echo ... Instructions/InstructionDiv.i
-	@echo ... Instructions/InstructionDiv.s
-	@echo ... Instructions/InstructionHalt.obj
-	@echo ... Instructions/InstructionHalt.i
-	@echo ... Instructions/InstructionHalt.s
-	@echo ... Instructions/InstructionJGTZ.obj
-	@echo ... Instructions/InstructionJGTZ.i
-	@echo ... Instructions/InstructionJGTZ.s
-	@echo ... Instructions/InstructionJZero.obj
-	@echo ... Instructions/InstructionJZero.i
-	@echo ... Instructions/InstructionJZero.s
-	@echo ... Instructions/InstructionJump.obj
-	@echo ... Instructions/InstructionJump.i
-	@echo ... Instructions/InstructionJump.s
-	@echo ... Instructions/InstructionLoad.obj
-	@echo ... Instructions/InstructionLoad.i
-	@echo ... Instructions/InstructionLoad.s
-	@echo ... Instructions/InstructionMult.obj
-	@echo ... Instructions/InstructionMult.i
-	@echo ... Instructions/InstructionMult.s
-	@echo ... Instructions/InstructionRead.obj
-	@echo ... Instructions/InstructionRead.i
-	@echo ... Instructions/InstructionRead.s
-	@echo ... Instructions/InstructionRest.obj
-	@echo ... Instructions/InstructionRest.i
-	@echo ... Instructions/InstructionRest.s
-	@echo ... Instructions/InstructionStore.obj
-	@echo ... Instructions/InstructionStore.i
-	@echo ... Instructions/InstructionStore.s
-	@echo ... Instructions/InstructionSub.obj
-	@echo ... Instructions/InstructionSub.i
-	@echo ... Instructions/InstructionSub.s
-	@echo ... Instructions/InstructionWrite.obj
-	@echo ... Instructions/InstructionWrite.i
-	@echo ... Instructions/InstructionWrite.s
-	@echo ... Memory.obj
-	@echo ... Memory.i
-	@echo ... Memory.s
-	@echo ... RAM.obj
-	@echo ... RAM.i
-	@echo ... RAM.s
-	@echo ... RAMInput.obj
-	@echo ... RAMInput.i
-	@echo ... RAMInput.s
-	@echo ... RAMOutput.obj
-	@echo ... RAMOutput.i
-	@echo ... RAMOutput.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/Instructions/Instruction.obj
+	@echo ... src/Instructions/Instruction.i
+	@echo ... src/Instructions/Instruction.s
+	@echo ... src/Instructions/InstructionAdd.obj
+	@echo ... src/Instructions/InstructionAdd.i
+	@echo ... src/Instructions/InstructionAdd.s
+	@echo ... src/Instructions/InstructionDiv.obj
+	@echo ... src/Instructions/InstructionDiv.i
+	@echo ... src/Instructions/InstructionDiv.s
+	@echo ... src/Instructions/InstructionHalt.obj
+	@echo ... src/Instructions/InstructionHalt.i
+	@echo ... src/Instructions/InstructionHalt.s
+	@echo ... src/Instructions/InstructionJGTZ.obj
+	@echo ... src/Instructions/InstructionJGTZ.i
+	@echo ... src/Instructions/InstructionJGTZ.s
+	@echo ... src/Instructions/InstructionJZero.obj
+	@echo ... src/Instructions/InstructionJZero.i
+	@echo ... src/Instructions/InstructionJZero.s
+	@echo ... src/Instructions/InstructionJump.obj
+	@echo ... src/Instructions/InstructionJump.i
+	@echo ... src/Instructions/InstructionJump.s
+	@echo ... src/Instructions/InstructionLoad.obj
+	@echo ... src/Instructions/InstructionLoad.i
+	@echo ... src/Instructions/InstructionLoad.s
+	@echo ... src/Instructions/InstructionMult.obj
+	@echo ... src/Instructions/InstructionMult.i
+	@echo ... src/Instructions/InstructionMult.s
+	@echo ... src/Instructions/InstructionRead.obj
+	@echo ... src/Instructions/InstructionRead.i
+	@echo ... src/Instructions/InstructionRead.s
+	@echo ... src/Instructions/InstructionRest.obj
+	@echo ... src/Instructions/InstructionRest.i
+	@echo ... src/Instructions/InstructionRest.s
+	@echo ... src/Instructions/InstructionStore.obj
+	@echo ... src/Instructions/InstructionStore.i
+	@echo ... src/Instructions/InstructionStore.s
+	@echo ... src/Instructions/InstructionSub.obj
+	@echo ... src/Instructions/InstructionSub.i
+	@echo ... src/Instructions/InstructionSub.s
+	@echo ... src/Instructions/InstructionWrite.obj
+	@echo ... src/Instructions/InstructionWrite.i
+	@echo ... src/Instructions/InstructionWrite.s
+	@echo ... src/Memory.obj
+	@echo ... src/Memory.i
+	@echo ... src/Memory.s
+	@echo ... src/RAM.obj
+	@echo ... src/RAM.i
+	@echo ... src/RAM.s
+	@echo ... src/RAMInput.obj
+	@echo ... src/RAMInput.i
+	@echo ... src/RAMInput.s
+	@echo ... src/RAMOutput.obj
+	@echo ... src/RAMOutput.i
+	@echo ... src/RAMOutput.s
+	@echo ... src/instructions_table.obj
+	@echo ... src/instructions_table.i
+	@echo ... src/instructions_table.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

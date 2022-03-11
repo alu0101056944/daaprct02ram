@@ -1,5 +1,5 @@
 CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: \
- C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\src\main.cpp \
+ C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -102,8 +102,8 @@ CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\ram.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\instructions_table.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\ram.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\instructions_table.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
@@ -120,11 +120,11 @@ CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\RAMInput.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\RAMOutput.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\Memory.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\Instructions/Instruction.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\raminput.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\ramoutput.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\memory.h \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\instructions_table.h
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\RAMInput.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\RAMOutput.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\Memory.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\Instructions/Instruction.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\raminput.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\ramoutput.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\memory.h \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\instructions_table.h

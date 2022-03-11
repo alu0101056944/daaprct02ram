@@ -60,8 +60,7 @@
 				15,
 				16,
 				17,
-				18,
-				19
+				18
 			]
 		}
 	],
@@ -97,8 +96,7 @@
 				15,
 				16,
 				17,
-				18,
-				19
+				18
 			]
 		}
 	],
@@ -107,121 +105,115 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "IOHandler.cpp",
+			"path" : "src/instructions_table.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "InstructionTranslator.cpp",
+			"path" : "src/RAM.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "RAM.cpp",
+			"path" : "src/RAMOutput.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "RAMOutput.cpp",
+			"path" : "src/RAMInput.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "RAMInput.cpp",
+			"path" : "src/Memory.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Memory.cpp",
+			"path" : "src/Instructions/Instruction.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/Instruction.cpp",
+			"path" : "src/Instructions/InstructionLoad.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionLoad.cpp",
+			"path" : "src/Instructions/InstructionRest.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionRest.cpp",
+			"path" : "src/Instructions/InstructionHalt.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionHalt.cpp",
+			"path" : "src/Instructions/InstructionStore.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionStore.cpp",
+			"path" : "src/Instructions/InstructionAdd.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionAdd.cpp",
+			"path" : "src/Instructions/InstructionSub.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionSub.cpp",
+			"path" : "src/Instructions/InstructionMult.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionMult.cpp",
+			"path" : "src/Instructions/InstructionDiv.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionDiv.cpp",
+			"path" : "src/Instructions/InstructionRead.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionRead.cpp",
+			"path" : "src/Instructions/InstructionWrite.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionWrite.cpp",
+			"path" : "src/Instructions/InstructionJump.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionJump.cpp",
+			"path" : "src/Instructions/InstructionJGTZ.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionJGTZ.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Instructions/InstructionJZero.cpp",
+			"path" : "src/Instructions/InstructionJZero.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -1,6 +1,6 @@
 CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj: \
- C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\src\RAMOutput.cpp \
- c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\prct02_ram_2\practica2_2\includes\ramoutput.h \
+ C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAMOutput.cpp \
+ c:\users\marcos\desktop\cosas\educacion\ull\diseno_y_analisis_de_algoritmos\daaprct02ram\includes\ramoutput.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \

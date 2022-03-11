@@ -38,7 +38,7 @@
 						"mingwex"
 					]
 				},
-				"path" : "C:/MinGW/bin/mingw32-gcc.exe",
+				"path" : "C:/MinGW/bin/gcc.exe",
 				"version" : "6.3.0"
 			},
 			"language" : "C",
@@ -90,7 +90,7 @@
 						"mingwex"
 					]
 				},
-				"path" : "C:/MinGW/bin/mingw32-g++.exe",
+				"path" : "C:/MinGW/bin/g++.exe",
 				"version" : "6.3.0"
 			},
 			"language" : "CXX",

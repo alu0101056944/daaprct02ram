@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2
+CMAKE_SOURCE_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build
+CMAKE_BINARY_DIR = C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Practica2Implementation.dir/depend.make
@@ -68,335 +68,319 @@ include CMakeFiles/Practica2Implementation.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Practica2Implementation.dir/flags.make
 
-CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.obj: ../IOHandler.cpp
-CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\IOHandler.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\IOHandler.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\IOHandler.cpp
+CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.obj: ../src/instructions_table.cpp
+CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\instructions_table.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\instructions_table.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\instructions_table.cpp
 
-CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\IOHandler.cpp > CMakeFiles\Practica2Implementation.dir\IOHandler.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\instructions_table.cpp > CMakeFiles\Practica2Implementation.dir\src\instructions_table.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\IOHandler.cpp -o CMakeFiles\Practica2Implementation.dir\IOHandler.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\instructions_table.cpp -o CMakeFiles\Practica2Implementation.dir\src\instructions_table.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.obj: ../InstructionTranslator.cpp
-CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\InstructionTranslator.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\InstructionTranslator.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\InstructionTranslator.cpp
+CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.obj: ../src/RAM.cpp
+CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\RAM.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\RAM.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAM.cpp
 
-CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\InstructionTranslator.cpp > CMakeFiles\Practica2Implementation.dir\InstructionTranslator.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAM.cpp > CMakeFiles\Practica2Implementation.dir\src\RAM.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\InstructionTranslator.cpp -o CMakeFiles\Practica2Implementation.dir\InstructionTranslator.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAM.cpp -o CMakeFiles\Practica2Implementation.dir\src\RAM.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/RAM.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/RAM.cpp.obj: ../RAM.cpp
-CMakeFiles/Practica2Implementation.dir/RAM.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practica2Implementation.dir/RAM.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/RAM.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\RAM.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\RAM.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAM.cpp
+CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj: ../src/RAMOutput.cpp
+CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\RAMOutput.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\RAMOutput.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAMOutput.cpp
 
-CMakeFiles/Practica2Implementation.dir/RAM.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/RAM.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAM.cpp > CMakeFiles\Practica2Implementation.dir\RAM.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAMOutput.cpp > CMakeFiles\Practica2Implementation.dir\src\RAMOutput.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/RAM.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/RAM.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAM.cpp -o CMakeFiles\Practica2Implementation.dir\RAM.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAMOutput.cpp -o CMakeFiles\Practica2Implementation.dir\src\RAMOutput.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.obj: ../RAMOutput.cpp
-CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\RAMOutput.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\RAMOutput.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAMOutput.cpp
+CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.obj: ../src/RAMInput.cpp
+CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\RAMInput.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\RAMInput.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAMInput.cpp
 
-CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAMOutput.cpp > CMakeFiles\Practica2Implementation.dir\RAMOutput.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAMInput.cpp > CMakeFiles\Practica2Implementation.dir\src\RAMInput.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAMOutput.cpp -o CMakeFiles\Practica2Implementation.dir\RAMOutput.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\RAMInput.cpp -o CMakeFiles\Practica2Implementation.dir\src\RAMInput.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.obj: ../RAMInput.cpp
-CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\RAMInput.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\RAMInput.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAMInput.cpp
+CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.obj: ../src/Memory.cpp
+CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Memory.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Memory.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Memory.cpp
 
-CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAMInput.cpp > CMakeFiles\Practica2Implementation.dir\RAMInput.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Memory.cpp > CMakeFiles\Practica2Implementation.dir\src\Memory.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\RAMInput.cpp -o CMakeFiles\Practica2Implementation.dir\RAMInput.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Memory.cpp -o CMakeFiles\Practica2Implementation.dir\src\Memory.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Memory.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Memory.cpp.obj: ../Memory.cpp
-CMakeFiles/Practica2Implementation.dir/Memory.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Practica2Implementation.dir/Memory.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Memory.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Memory.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Memory.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Memory.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.obj: ../src/Instructions/Instruction.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\Instruction.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\Instruction.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\Instruction.cpp
 
-CMakeFiles/Practica2Implementation.dir/Memory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Memory.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Memory.cpp > CMakeFiles\Practica2Implementation.dir\Memory.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\Instruction.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\Instruction.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Memory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Memory.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Memory.cpp -o CMakeFiles\Practica2Implementation.dir\Memory.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\Instruction.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\Instruction.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.obj: ../Instructions/Instruction.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\Instruction.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\Instruction.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\Instruction.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.obj: ../src/Instructions/InstructionLoad.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionLoad.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionLoad.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionLoad.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\Instruction.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\Instruction.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionLoad.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionLoad.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\Instruction.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\Instruction.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionLoad.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionLoad.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.obj: ../Instructions/InstructionLoad.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionLoad.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionLoad.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionLoad.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.obj: ../src/Instructions/InstructionRest.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionRest.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionRest.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionRest.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionLoad.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionLoad.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionRest.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionRest.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionLoad.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionLoad.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionRest.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionRest.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.obj: ../Instructions/InstructionRest.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionRest.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionRest.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionRest.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.obj: ../src/Instructions/InstructionHalt.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionHalt.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionHalt.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionHalt.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionRest.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionRest.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionHalt.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionHalt.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionRest.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionRest.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionHalt.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionHalt.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.obj: ../Instructions/InstructionHalt.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionHalt.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionHalt.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionHalt.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.obj: ../src/Instructions/InstructionStore.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionStore.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionStore.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionStore.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionHalt.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionHalt.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionStore.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionStore.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionHalt.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionHalt.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionStore.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionStore.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.obj: ../Instructions/InstructionStore.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionStore.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionStore.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionStore.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.obj: ../src/Instructions/InstructionAdd.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionAdd.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionAdd.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionAdd.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionStore.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionStore.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionAdd.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionAdd.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionStore.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionStore.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionAdd.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionAdd.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.obj: ../Instructions/InstructionAdd.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionAdd.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionAdd.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionAdd.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.obj: ../src/Instructions/InstructionSub.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionSub.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionSub.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionSub.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionAdd.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionAdd.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionSub.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionSub.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionAdd.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionAdd.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionSub.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionSub.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.obj: ../Instructions/InstructionSub.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionSub.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionSub.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionSub.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.obj: ../src/Instructions/InstructionMult.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionMult.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionMult.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionMult.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionSub.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionSub.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionMult.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionMult.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionSub.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionSub.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionMult.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionMult.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.obj: ../Instructions/InstructionMult.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionMult.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionMult.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionMult.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.obj: ../src/Instructions/InstructionDiv.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionDiv.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionDiv.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionDiv.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionMult.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionMult.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionDiv.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionDiv.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionMult.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionMult.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionDiv.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionDiv.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.obj: ../Instructions/InstructionDiv.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionDiv.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionDiv.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionDiv.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.obj: ../src/Instructions/InstructionRead.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionRead.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionRead.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionRead.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionDiv.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionDiv.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionRead.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionRead.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionDiv.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionDiv.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionRead.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionRead.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.obj: ../Instructions/InstructionRead.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionRead.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionRead.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionRead.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.obj: ../src/Instructions/InstructionWrite.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionWrite.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionWrite.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionWrite.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionRead.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionRead.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionWrite.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionWrite.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionRead.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionRead.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionWrite.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionWrite.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.obj: ../Instructions/InstructionWrite.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionWrite.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionWrite.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionWrite.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.obj: ../src/Instructions/InstructionJump.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJump.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJump.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJump.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionWrite.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionWrite.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJump.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJump.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionWrite.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionWrite.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJump.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJump.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.obj: ../Instructions/InstructionJump.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJump.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJump.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJump.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.obj: ../src/Instructions/InstructionJGTZ.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJGTZ.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJGTZ.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJGTZ.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJump.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJump.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJGTZ.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJGTZ.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJump.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJump.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJGTZ.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJGTZ.cpp.s
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.obj: ../Instructions/InstructionJGTZ.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJGTZ.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJGTZ.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJGTZ.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.obj: ../src/Instructions/InstructionJZero.cpp
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJZero.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJZero.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJZero.cpp
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJGTZ.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJGTZ.cpp.i
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJZero.cpp > CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJZero.cpp.i
 
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJGTZ.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJGTZ.cpp.s
-
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.obj: CMakeFiles/Practica2Implementation.dir/flags.make
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.obj: ../Instructions/InstructionJZero.cpp
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.obj: CMakeFiles/Practica2Implementation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.obj -MF CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJZero.cpp.obj.d -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJZero.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJZero.cpp
-
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJZero.cpp > CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJZero.cpp.i
-
-CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\Instructions\InstructionJZero.cpp -o CMakeFiles\Practica2Implementation.dir\Instructions\InstructionJZero.cpp.s
+CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\Instructions\InstructionJZero.cpp -o CMakeFiles\Practica2Implementation.dir\src\Instructions\InstructionJZero.cpp.s
 
 # Object files for target Practica2Implementation
 Practica2Implementation_OBJECTS = \
-"CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/RAM.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Memory.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.obj" \
-"CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.obj"
+"CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.obj" \
+"CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.obj"
 
 # External object files for target Practica2Implementation
 Practica2Implementation_EXTERNAL_OBJECTS =
 
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/IOHandler.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/InstructionTranslator.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/RAM.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/RAMOutput.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/RAMInput.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Memory.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/Instruction.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionLoad.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRest.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionHalt.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionStore.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionAdd.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionSub.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionMult.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionDiv.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionRead.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionWrite.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJump.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJGTZ.cpp.obj
-libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/Instructions/InstructionJZero.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/instructions_table.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/RAM.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/RAMOutput.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/RAMInput.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Memory.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/Instruction.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionLoad.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRest.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionHalt.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionStore.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionAdd.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionSub.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionMult.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionDiv.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionRead.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionWrite.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJump.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJGTZ.cpp.obj
+libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/src/Instructions/InstructionJZero.cpp.obj
 libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/build.make
 libPractica2Implementation.a: CMakeFiles/Practica2Implementation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library libPractica2Implementation.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library libPractica2Implementation.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\Practica2Implementation.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Practica2Implementation.dir\link.txt --verbose=$(VERBOSE)
 
@@ -409,6 +393,6 @@ CMakeFiles/Practica2Implementation.dir/clean:
 .PHONY : CMakeFiles/Practica2Implementation.dir/clean
 
 CMakeFiles/Practica2Implementation.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2 C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2 C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\Prct02_RAM_2\Practica2_2\build\CMakeFiles\Practica2Implementation.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles\Practica2Implementation.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Practica2Implementation.dir/depend
 

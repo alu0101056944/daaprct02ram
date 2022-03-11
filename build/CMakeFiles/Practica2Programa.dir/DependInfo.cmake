@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/Prct02_RAM_2/Practica2_2/main.cpp" "CMakeFiles/Practica2Programa.dir/main.cpp.obj" "gcc" "CMakeFiles/Practica2Programa.dir/main.cpp.obj.d"
+  "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/main.cpp" "CMakeFiles/Practica2Programa.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Practica2Programa.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/Prct02_RAM_2/Practica2_2/build/CMakeFiles/Practica2Implementation.dir/DependInfo.cmake"
+  "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build/CMakeFiles/Practica2Implementation.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

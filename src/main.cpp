@@ -53,17 +53,20 @@ void initiateDebugMenu(RAM& ram) {
 int main(int argc, char** argv) {
   if (argc >= 5) {
     RAM r(argv[1], argv[2], argv[3]);
-    auto isOnDebugMode = stoi(argv[4]) == 1;
-    if (!isOnDebugMode) {
-      r.executeProgram();
-      r.printInstructionAmount();
-      r.printMemoryRegisters();
-      r.printInput();
-      r.printOutput();
-      return 0;
-    } else {
-      cout << "Initiating debug mode." << endl;
-      initiateDebugMenu(r);
+    auto executionMode = stoi(argv[4]);
+    switch (executionMode) {
+      default:
+          r.executeProgram();
+          r.printInstructionAmount();
+          r.printMemoryRegisters();
+          r.printInput();
+          r.printOutput();
+      case 1:
+          r.executeProgram();
+          r.printInstructionAmount();
+      case 2:
+          cout << "Initiating debug mode." << endl;
+          initiateDebugMenu(r);
     }
   } else {
     cerr << "Invalid amount of input values." << endl;
