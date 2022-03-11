@@ -22,7 +22,7 @@ public:
   void execute();
 
   /**
-   * Check args format and initialize instruction values. Called on object construction.
+   * Check args format and initialize instruction values.
    */
   void parse();
 

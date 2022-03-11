@@ -10,6 +10,7 @@
 #include "../includes/Instructions/InstructionSub.h"
 #include "../includes/Instructions/InstructionMult.h"
 #include "../includes/Instructions/InstructionDiv.h"
+#include "../includes/Instructions/InstructionRest.h"
 #include "../includes/Instructions/InstructionRead.h"
 #include "../includes/Instructions/InstructionWrite.h"
 #include "../includes/Instructions/InstructionHalt.h"
@@ -40,6 +41,8 @@ void RAM::chooseInstruction(vector<string> instructionArgs) {
     setCurrentInstruction(new InstructionMult(instructionArgs, memory, input, output, instructionsTable));
   } else if (opCode.compare("div") == 0) {
     setCurrentInstruction(new InstructionDiv(instructionArgs, memory, input, output, instructionsTable));
+  } else if (opCode.compare("rest") == 0) {
+    setCurrentInstruction(new InstructionRest(instructionArgs, memory, input, output, instructionsTable));
   } else if (opCode.compare("read") == 0) {
     setCurrentInstruction(new InstructionRead(instructionArgs, memory, input, output, instructionsTable));
   } else if (opCode.compare("write") == 0) {
@@ -67,7 +70,7 @@ void RAM::executeInstruction() {
     numberOfInsExecuted++;
   } else {
     halt = true;
-    cerr << "There aren't more instructions to be executed." << endl;
+    cerr << "Halted; stopped execution." << endl;
   }
 }
 

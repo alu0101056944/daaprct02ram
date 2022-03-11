@@ -8,6 +8,7 @@ add_library(Practica2Implementation
     src/RAMInput.cpp
     src/Memory.cpp
     src/Instructions/Instruction.cpp
+    src/Instructions/InstructionRest.cpp
     src/Instructions/InstructionLoad.cpp
     src/Instructions/InstructionHalt.cpp
     src/Instructions/InstructionStore.cpp
