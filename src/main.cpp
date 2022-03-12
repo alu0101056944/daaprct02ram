@@ -61,12 +61,15 @@ int main(int argc, char** argv) {
           r.printMemoryRegisters();
           r.printInput();
           r.printOutput();
+          break;
       case 1:
           r.executeProgram();
           r.printInstructionAmount();
+          break;
       case 2:
           cout << "Initiating debug mode." << endl;
           initiateDebugMenu(r);
+          break;
     }
   } else {
     cerr << "Invalid amount of input values." << endl;
