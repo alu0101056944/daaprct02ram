@@ -22,6 +22,11 @@ public:
   void execute();
 
   /**
+   * @brief Override parse into doing nothing
+   */
+  void parse();
+
+  /**
    * @returns true if execution was successful
    */
   bool successful();

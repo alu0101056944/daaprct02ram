@@ -16,6 +16,9 @@ void Memory::setRegister(int value, int dir,
   if (dir >= (registers.size())) {
     registers.resize(dir + 1);
   }
+  if (indexOfVector >= registers[dir].size()) {
+    registers[dir].resize(indexOfVector + 1);
+  }
   registers[dir][indexOfVector] = value;
 }
 

@@ -81,6 +81,7 @@ void RAM::executeInstruction() {
 void RAM::interpretInstruction() {
   ptrLatestExecutedInstruction->parse();
   ptrLatestExecutedInstruction->execute();
+  ptrLatestExecutedInstruction->print();
   if (!ptrLatestExecutedInstruction->successful()) {
     cout << ptrLatestExecutedInstruction->errorMessage() << endl;
     cout << "On instruction number " << numberOfInsExecuted << endl;

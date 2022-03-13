@@ -14,6 +14,8 @@ InstructionHalt::InstructionHalt(
 
 void InstructionHalt::execute() {}
 
+void InstructionHalt::parse() {}
+
 bool InstructionHalt::successful() {
   return true; //cant go wrong
 }
