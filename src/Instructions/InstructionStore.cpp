@@ -12,16 +12,11 @@ InstructionStore::InstructionStore(
   ) : 
     Instruction(args, mem, input, output, insTranslator) {}
 
-void InstructionStore::parse() {
-  passedValue = parseValue(args[1]);
-  setAddressTypeFlags();
-}
-
 void InstructionStore::execute() {
   if (isIndirectValue) { // direccionamiento indirecto
-    memory.setRegister(memory.getRegister(0), memory.getRegister(passedValue));
+    memory.setRegister(memory.getRegister(0), memory.getRegister(operatorNumericValue));
   } else if (!isIndirectValue && !isInmediateValue){ // direccionamiento directo
-    memory.setRegister(memory.getRegister(0), passedValue);
+    memory.setRegister(memory.getRegister(0), operatorNumericValue);
   }
 }
 

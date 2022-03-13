@@ -13,19 +13,14 @@ InstructionRead::InstructionRead(
     Instruction(args, mem, input, output, insTranslator),
     obtainedValue(0) {}
 
-void InstructionRead::parse() {
-  passedValue = parseValue(args[1]);
-  setAddressTypeFlags();
-}
-
 void InstructionRead::execute() {
   if (successful()) {
-    memory.setRegister(input.readValue(), passedValue);
+    memory.setRegister(input.readValue(), operatorNumericValue);
   }
 }
 
 bool InstructionRead::successful() {
-  if (passedValue <= 0) { // por requisito
+  if (operatorNumericValue <= 0) { // por requisito
     return false;
   }
   return true;

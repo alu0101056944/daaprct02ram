@@ -1,102 +1,102 @@
 [
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\instructions_table.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\instructions_table.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\instructions_table.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\instructions_table.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/instructions_table.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\RAM.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\RAM.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\RAM.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\RAM.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/RAM.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\RAMOutput.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\RAMOutput.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\RAMOutput.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\RAMOutput.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/RAMOutput.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\RAMInput.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\RAMInput.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\RAMInput.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\RAMInput.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/RAMInput.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Memory.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Memory.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Memory.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Memory.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Memory.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\Instruction.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\Instruction.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\Instruction.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\Instruction.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/Instruction.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionLoad.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionLoad.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionLoad.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionLoad.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionLoad.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionRest.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionRest.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionRest.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionRest.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionRest.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionHalt.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionHalt.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionHalt.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionHalt.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionHalt.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionStore.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionStore.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionStore.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionStore.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionStore.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionAdd.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionAdd.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionAdd.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionAdd.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionAdd.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionSub.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionSub.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionSub.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionSub.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionSub.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionMult.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionMult.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionMult.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionMult.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionMult.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionDiv.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionDiv.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionDiv.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionDiv.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionDiv.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionRead.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionRead.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionRead.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionRead.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionRead.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionWrite.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionWrite.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionWrite.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionWrite.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionWrite.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionJump.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionJump.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionJump.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionJump.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionJump.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionJGTZ.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionJGTZ.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionJGTZ.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionJGTZ.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionJGTZ.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionJZero.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionJZero.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\Practica2Implementation.dir\\src\\Instructions\\InstructionJZero.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\Instructions\\InstructionJZero.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/Instructions/InstructionJZero.cpp"
 },
 {
   "directory": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Practica2Programa.dir/includes_CXX.rsp -g -o CMakeFiles\\Practica2Programa.dir\\src\\main.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\main.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Practica2Programa.dir/includes_CXX.rsp -g -o CMakeFiles\\Practica2Programa.dir\\src\\main.cpp.obj -c C:\\Users\\Marcos\\Desktop\\Cosas\\Educacion\\ULL\\Diseno_y_analisis_de_algoritmos\\daaprct02ram\\src\\main.cpp",
   "file": "C:/Users/Marcos/Desktop/Cosas/Educacion/ULL/Diseno_y_analisis_de_algoritmos/daaprct02ram/src/main.cpp"
 }
 ]

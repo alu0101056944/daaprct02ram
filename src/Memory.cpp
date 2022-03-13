@@ -4,26 +4,32 @@
 
 Memory::Memory() : registers() {}
 
-int Memory::getRegister(int dir) {
+int Memory::getRegister(int dir, int indexOfVector) {
   if (dir >= (registers.size())) {
     registers.resize(dir + 1);
   }
-  return registers.at(dir);
+  return registers[dir][indexOfVector];
 }
 
-void Memory::setRegister(int value, int dir) {
+void Memory::setRegister(int value, int dir,
+    int indexOfVector) {
   if (dir >= (registers.size())) {
     registers.resize(dir + 1);
   }
-  registers[dir] = value;
+  registers[dir][indexOfVector] = value;
 }
 
 void Memory::printMemory() {
   cout << endl << "-- Memory: " << registers.size() << " elements." << endl;
   for (int i = 0; i < registers.size(); i++) {
-    cout << "c(" << i << ") = " << registers.at(i);
-    if(i != (registers.size() - 1)){
-      cout << ", " << endl;
+    cout << "c(" << i << ") = ";
+    for (int j = 0; j < registers[i].size(); j++) {
+      cout << registers[i][j];
+      if(j != (registers[i].size() - 1)){
+        cout << ", ";
+      } else {
+        cout << endl;
+      }
     }
   }
   cout << endl;

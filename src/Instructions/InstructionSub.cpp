@@ -13,20 +13,15 @@ InstructionSub::InstructionSub(
     Instruction(args, mem, input, output, insTranslator),
     result(0) {}
 
-void InstructionSub::parse() {
-  passedValue = parseValue(args[1]);
-  setAddressTypeFlags();
-}
-
 void InstructionSub::execute() {
   if (successful()) {
     if (isIndirectValue) { // indirect address
       result = memory.getRegister(0) - 
-          memory.getRegister(memory.getRegister(passedValue));
+          memory.getRegister(memory.getRegister(operatorNumericValue));
     } else if (isInmediateValue) { // inmediate address
-      result = memory.getRegister(0) - passedValue;
+      result = memory.getRegister(0) - operatorNumericValue;
     } else {
-      result = memory.getRegister(0) - memory.getRegister(passedValue);
+      result = memory.getRegister(0) - memory.getRegister(operatorNumericValue);
     }
     memory.setRegister(result, 0);
   }

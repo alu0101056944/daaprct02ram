@@ -12,8 +12,6 @@ InstructionHalt::InstructionHalt(
   ) : 
     Instruction(args, mem, input, output, insTranslator) {}
 
-void InstructionHalt::parse() {}
-
 void InstructionHalt::execute() {}
 
 bool InstructionHalt::successful() {

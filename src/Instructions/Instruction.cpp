@@ -14,35 +14,34 @@ Instruction::Instruction(
     input(input),
     output(output),
     insTranslator(insTranslator),
-    passedValue(0),
+    operatorNumericValue(0),
+    operatorIndexValue(0),
     isIndirectValue(false),
     isInmediateValue(false),
     successfulChecked(false) {}
 
-void Instruction::setAddressTypeFlags() {
-  switch (args[1].at(0)) {
-    case '*':
+void Instruction::parse() {
+  string fistArgumentOfInstruction = args[1];
+  for (int i = 0; i < fistArgumentOfInstruction.size(); i++) {
+    if (fistArgumentOfInstruction[i] == '*') {
       isIndirectValue = true;
       isInmediateValue = false;
+      fistArgumentOfInstruction.erase(i, 1);
       break;
-    case '=':
+    } else if (fistArgumentOfInstruction[i] == '=') {
       isIndirectValue = false;
       isInmediateValue = true;
+      fistArgumentOfInstruction.erase(i, 1);
       break;
-    default: // direct address
-      isIndirectValue = false;
-      isInmediateValue = false;
-        break;
+    } else if (fistArgumentOfInstruction[i] == '[') {
+      operatorIndexValue = fistArgumentOfInstruction[i + 1];
+      fistArgumentOfInstruction.erase(i, 3);
+    }
   }
-}
-
-int Instruction::parseValue(string value) {
-  string lastChar;
-  lastChar += value.at(value.size()-1);
-  stringstream valueString(lastChar); // last char is always the numeric value
-  int tempValue = 0;
-  valueString >> tempValue; // coarses string to int
-  return tempValue;
+  string operatorValueAsString;
+  operatorValueAsString +=
+      fistArgumentOfInstruction.at(fistArgumentOfInstruction.size() - 1);
+  operatorNumericValue = std::stoi(operatorValueAsString);
 }
 
 void Instruction::print() {

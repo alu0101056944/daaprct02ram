@@ -122,6 +122,7 @@ void RAM::printInstructionAmount() {
 
 void RAM::printCurrentInstructionInfo() {
   if(ptrLatestExecutedInstruction != nullptr) {
+    cout << "Last executed instruction:" << endl;
     ptrLatestExecutedInstruction->print();
   }
 }

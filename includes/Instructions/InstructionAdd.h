@@ -22,11 +22,6 @@ public:
   void execute();
 
   /**
-   * Check args format and initialize instruction values. Called on object construction.
-   */
-  void parse();
-
-  /**
    * @returns true if execution was successful
    */
   bool successful();

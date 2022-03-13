@@ -13,11 +13,6 @@ InstructionRest::InstructionRest(
     Instruction(args, mem, input, output, insTranslator),
     result(0) {}
 
-void InstructionRest::parse() {
-  passedValue = parseValue(args[1]);
-  setAddressTypeFlags();
-}
-
 void InstructionRest::execute() {
   if (successful()) {
     memory.setRegister(result, 0);
@@ -27,11 +22,11 @@ void InstructionRest::execute() {
 bool InstructionRest::successful() {
   if (isIndirectValue) { // indirect address
     result = memory.getRegister(0) %
-        memory.getRegister(memory.getRegister(passedValue));
+        memory.getRegister(memory.getRegister(operatorNumericValue));
   } else if (isInmediateValue) { // inmediate address
-    result = memory.getRegister(0) % passedValue;
+    result = memory.getRegister(0) % operatorNumericValue;
   } else {
-    result = memory.getRegister(0) % memory.getRegister(passedValue);
+    result = memory.getRegister(0) % memory.getRegister(operatorNumericValue);
   }
   return true;
 }

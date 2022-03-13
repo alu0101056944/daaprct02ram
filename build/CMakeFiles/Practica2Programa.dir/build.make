@@ -73,15 +73,15 @@ CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: CMakeFiles/Practica2Programa.
 CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/Practica2Programa.dir/src/main.cpp.obj: CMakeFiles/Practica2Programa.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica2Programa.dir/src/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Programa.dir/src/main.cpp.obj -MF CMakeFiles\Practica2Programa.dir\src\main.cpp.obj.d -o CMakeFiles\Practica2Programa.dir\src\main.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Practica2Programa.dir/src/main.cpp.obj -MF CMakeFiles\Practica2Programa.dir\src\main.cpp.obj.d -o CMakeFiles\Practica2Programa.dir\src\main.cpp.obj -c C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp
 
 CMakeFiles/Practica2Programa.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica2Programa.dir/src/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp > CMakeFiles\Practica2Programa.dir\src\main.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp > CMakeFiles\Practica2Programa.dir\src\main.cpp.i
 
 CMakeFiles/Practica2Programa.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica2Programa.dir/src/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp -o CMakeFiles\Practica2Programa.dir\src\main.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcos\Desktop\Cosas\Educacion\ULL\Diseno_y_analisis_de_algoritmos\daaprct02ram\src\main.cpp -o CMakeFiles\Practica2Programa.dir\src\main.cpp.s
 
 # Object files for target Practica2Programa
 Practica2Programa_OBJECTS = \

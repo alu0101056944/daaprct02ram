@@ -14,28 +14,29 @@ using namespace std;
 
 class InstructionJGTZ : public Instruction {
 public:
-    InstructionJGTZ(vector<string> args, Memory& mem, RAMInput& input,
-      RAMOutput& output, InstructionsTable& insTranslator); //mem, entrada, salida, args
+  InstructionJGTZ(vector<string> args, Memory& mem, RAMInput& input,
+    RAMOutput& output, InstructionsTable& insTranslator); //mem, entrada, salida, args
 
-    virtual ~InstructionJGTZ() {};
+  virtual ~InstructionJGTZ() {};
 
-    void execute();
+  void execute();
 
-    /**
-     * Check args format and initialize instruction values. Called on object construction.
-     */
-    void parse();
+  /**
+   * To overload original parse; just leave first argument of instruction as
+   *  it is since only a label is needed.
+   */
+  void parse();
 
-    /**
-     * @returns true if execution was successful
-     */
-    bool successful();
+  /**
+   * @returns true if execution was successful
+   */
+  bool successful();
 
-    /**
-     * "no error" if successful
-     * @returns error message if unsuccesful
-     */
-    string errorMessage();
+  /**
+   * "no error" if successful
+   * @returns error message if unsuccesful
+   */
+  string errorMessage();
 private:
 };
 

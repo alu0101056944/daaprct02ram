@@ -22,7 +22,8 @@ public:
   void execute();
 
   /**
-   * Check args format and initialize instruction values. Called on object construction.
+   * To overload original parse; just leave first argument of instruction as
+   *  it is since only a label is needed.
    */
   void parse();
 

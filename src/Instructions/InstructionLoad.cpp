@@ -16,26 +16,21 @@ InstructionLoad::InstructionLoad(
     obtainedValue(0) {
 }
 
-void InstructionLoad::parse() {
-  passedValue = parseValue(args[1]);
-  setAddressTypeFlags();
-}
-
 void InstructionLoad::execute() {
   if (successful()) {
     if (isIndirectValue) { // indirect address
-      obtainedValue = memory.getRegister(memory.getRegister(passedValue));
+      obtainedValue = memory.getRegister(memory.getRegister(operatorNumericValue));
     } else if (isInmediateValue) { // inmediate address
-      obtainedValue = passedValue;
+      obtainedValue = operatorNumericValue;
     } else {
-      obtainedValue = memory.getRegister(passedValue); // direct address
+      obtainedValue = memory.getRegister(operatorNumericValue); // direct address
     }
     memory.setRegister(obtainedValue, 0);
   }
 }
 
 bool InstructionLoad::successful() {
-  if (!isInmediateValue && !isIndirectValue && passedValue < 1) {
+  if (!isInmediateValue && !isIndirectValue && operatorNumericValue < 1) {
     return false;
   }
   return true;

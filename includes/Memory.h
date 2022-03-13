@@ -13,16 +13,16 @@ public:
   /**
    * Access a register by its direction
    */
-  int getRegister(int dir);
+  int getRegister(int dir, int indexOfVector = 0);
   
   /**
    * Set a registers value
    */
-  void setRegister(int value, int dir);
+  void setRegister(int value, int dir, int indexOfVector = 0);
 
   void printMemory();
 private:
-  vector<int> registers;
+  vector<vector<int>> registers;
 };
 
 

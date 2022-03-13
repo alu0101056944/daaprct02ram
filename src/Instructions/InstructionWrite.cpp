@@ -13,26 +13,21 @@ InstructionWrite::InstructionWrite(
     Instruction(args, mem, input, output, insTranslator),
     obtainedValue(0) {}
 
-void InstructionWrite::parse() {
-  passedValue = parseValue(args[1]);
-  setAddressTypeFlags();
-}
-
 void InstructionWrite::execute() {
   if (successful()) {
     if (isIndirectValue) { // indirect address
-      obtainedValue = memory.getRegister(memory.getRegister(passedValue));
+      obtainedValue = memory.getRegister(memory.getRegister(operatorNumericValue));
     } else if (isInmediateValue) { // inmediate address
-      obtainedValue = passedValue;
+      obtainedValue = operatorNumericValue;
     } else {
-      obtainedValue = memory.getRegister(passedValue); // direct address
+      obtainedValue = memory.getRegister(operatorNumericValue); // direct address
     }
     output.writeValue(obtainedValue);
   }
 }
 
 bool InstructionWrite::successful() {
-  if (!isInmediateValue && passedValue < 1) {
+  if (!isInmediateValue && operatorNumericValue < 1) {
     return false;
   }
   return true;

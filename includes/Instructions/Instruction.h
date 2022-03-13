@@ -20,9 +20,10 @@ public:
   virtual void execute() = 0;
 
   /**
-   * Check args format and initialize instruction values. Called on object construction.
+   * Set address flags, operatorIndexValue and finally the operator numeric
+   *    value.
    */
-  virtual void parse() = 0;
+  virtual void parse();
 
   /**
    * @returns true if execution was successful
@@ -44,29 +45,12 @@ protected:
   RAMOutput& output;
   InstructionsTable& insTranslator;
 
-  int passedValue;
-  bool isIndirectValue, isInmediateValue;
+  int operatorNumericValue;
+  int operatorIndexValue; // i[j] where j = operatorIndexValue
+  bool isIndirectValue;
+  bool isInmediateValue;
 
   bool successfulChecked;
-
-  /**
-   * Meant to be used in Instruction::parse() method implementations.
-   * 
-   * Get int value from instruction string value argument (ex: =2, *4, 7).
-   * @pre value = /[*=]?\d+]/ 
-   * @param value Find value inside /[*=]?\d+]/ 
-   * @returns Numeric value in string param
-   */
-  int parseValue(string value);
-
-  /**
-   * Meant to be used in Instruction::parse() method implementations.
-   * 
-   * Checks if instruction's passed value is an inmediate value (=<value), 
-   * indirect value (*<number>) or direct value(<number>), then sets
-   * proper bool flags.
-   */
-  void setAddressTypeFlags();
 };
 
 #endif

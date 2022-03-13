@@ -13,11 +13,6 @@ InstructionDiv::InstructionDiv(
     Instruction(args, mem, input, output, insTranslator),
     result(0) {}
 
-void InstructionDiv::parse() {
-  passedValue = parseValue(args[1]);
-  setAddressTypeFlags();
-}
-
 void InstructionDiv::execute() {
   if (successful()) {
     memory.setRegister(result, 0);
@@ -27,17 +22,17 @@ void InstructionDiv::execute() {
 bool InstructionDiv::successful() {
   if (isIndirectValue) { // indirect address
     result = memory.getRegister(0) /
-        memory.getRegister(memory.getRegister(passedValue));
+        memory.getRegister(memory.getRegister(operatorNumericValue));
   } else if (isInmediateValue) { // inmediate address
-    result = memory.getRegister(0) / passedValue;
+    result = memory.getRegister(0) / operatorNumericValue;
   } else {
-    result = memory.getRegister(0) / memory.getRegister(passedValue);
+    result = memory.getRegister(0) / memory.getRegister(operatorNumericValue);
   }
 
-  if (result <= 0 || passedValue < 0) {
+  if (result <= 0 || operatorNumericValue < 0) {
     return false;
   }
-  return memory.getRegister(passedValue) > 0;
+  return memory.getRegister(operatorNumericValue) > 0;
 }
 
 string InstructionDiv::errorMessage() {
